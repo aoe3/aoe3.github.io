@@ -339,6 +339,7 @@ for(l = 0; l<arrYearData.length; l++){
 }
 
 for(j = 0; j < arrYearData.length; j++){
+	console.log(j);
 	// var combinedGenXPRatio = (arrYearGenXPRatio[j][0][0]+ 
 	// 			arrYearGenXPRatio[j][0][1]+ 
 	// 			arrYearGenXPRatio[j][1][0]+ 
@@ -478,6 +479,14 @@ for(j = 0; j < arrYearData.length; j++){
 		.attr("height", yScale(1) - yScale(0))
 		.attr("transform", "translate(-1,5)")
 		.style("fill", "#FFD520");
+
+	svg.append("text")
+			.attr("x", xScale2(0) - 20)
+			.attr("y", yScale(0.5)+10)
+			.attr("class", "svgtext")
+			.text(""+arrYearGenderRatio[j][0]+"")
+			.attr("text-anchor", "middle")
+			.style("stroke", "black")
   
 	//females 
 	svg.append("rect")
@@ -487,6 +496,15 @@ for(j = 0; j < arrYearData.length; j++){
 		.attr("height", yScale(1) - yScale(0))
 		.attr("transform", "translate("+ -(200 + 2*(xScale2(maxFem) - xScale2(0)))+",5)")
 		.style("fill", "#FFD520");
+
+	svg.append("text")
+		.attr("x", xScale2(2*maxFem) + 20)
+		.attr("y", yScale(0.5)+10)
+		.attr("class", "svgtext")
+		.text(""+arrYearGenderRatio[j][1]+"")
+		.attr("text-anchor", "middle")
+		.attr("transform", "translate("+ -(200 + 2*(xScale2(maxFem) - xScale2(0)))+",0)")
+		.style("stroke", "black")
 
 /**----------------DO NOT DELETE--------------DO NOT DELETE------------------DO NOT DELETE-----------------*/		
 	//first colors 	#ffffff, #F5BDBF, #EA7C7E, #E03A3E
@@ -510,6 +528,14 @@ for(j = 0; j < arrYearData.length; j++){
 			.attr("transform", "translate(-1,5)")
 			.style("fill", colorString);
 
+		svg.append("text")
+			.attr("x", xScale2(0) - 20)
+			.attr("y", yScale(k+1.5)+10)
+			.attr("class", "svgtext")
+			.text(""+arrYearGenXPRatio[j][k][1]+"")
+			.attr("text-anchor", "middle")
+			.style("stroke", "black")
+
 		svg.append("rect")
 			.attr("x", xScale2(arrYearGenXPRatio[j][k][0]))
 			.attr("y", yScale(k+1))
@@ -517,6 +543,15 @@ for(j = 0; j < arrYearData.length; j++){
 			.attr("height", yScale(1) - yScale(0))
 			.attr("transform", "translate("+ -(200 + 2*(xScale2(arrYearGenXPRatio[j][k][0]) - xScale2(0)))+",5)")
 			.style("fill", colorString);
+
+		svg.append("text")
+			.attr("x", xScale2(2*arrYearGenXPRatio[j][k][0]) + 20)
+			.attr("y", yScale(k + 1.5)+10)
+			.attr("class", "svgtext")
+			.text(""+arrYearGenXPRatio[j][k][0]+"")
+			.attr("text-anchor", "middle")
+			.attr("transform", "translate("+ -(200 + 2*(xScale2(arrYearGenXPRatio[j][k][0]) - xScale2(0)))+",0)")
+			.style("stroke", "black")
 	}
 
 	var labels = ["Total", "Beginner", "Intermediate", "Advanced"];
@@ -525,7 +560,7 @@ for(j = 0; j < arrYearData.length; j++){
 	for(l = 0; l < labels.length; l++){
 		svg.append("text")
 			.attr("x", width/2)
-			.attr("y", yScale(l+0.5)+5)
+			.attr("y", yScale(l+0.5)+10)
 			.attr("class", "svgtext")
 			.text(""+labels[l]+"")
 			.attr("text-anchor", "middle")
@@ -630,7 +665,7 @@ var chart = new Highcharts.Chart({
         text: 'How Population of Beg/Int/Adv has changed over the years'
     },
     subtitle: {
-        text: 'yellow: beginner, red: intermediate, black: advanced. Click and drag the box to see.'
+        text: 'Yellow: Beginner, Red: Intermediate, Black: Advanced. Click and drag the box to move it around!'
     },
     plotOptions: {
         	lineWidth: 2,
