@@ -477,7 +477,7 @@ for(j = 0; j < arrYearData.length; j++){
 		.attr("width", xScale2(maxMal) - xScale2(0))
 		.attr("height", yScale(1) - yScale(0))
 		.attr("transform", "translate(-1,5)")
-		.style("fill", "#ffffff");
+		.style("fill", "#FFD520");
   
 	//females 
 	svg.append("rect")
@@ -486,7 +486,7 @@ for(j = 0; j < arrYearData.length; j++){
 		.attr("width", xScale2(maxFem) - xScale2(0))
 		.attr("height", yScale(1) - yScale(0))
 		.attr("transform", "translate("+ -(200 + 2*(xScale2(maxFem) - xScale2(0)))+",5)")
-		.style("fill", "#ffffff");
+		.style("fill", "#FFD520");
 
 /**----------------DO NOT DELETE--------------DO NOT DELETE------------------DO NOT DELETE-----------------*/		
 	//first colors 	#ffffff, #F5BDBF, #EA7C7E, #E03A3E
@@ -496,9 +496,9 @@ for(j = 0; j < arrYearData.length; j++){
 	for(k = 0; k < arrYearGenXPRatio[j].length; k++){
 		var colorString = "";
 		if(k == 0){ 
-			colorString = "#F5BDBF";
+			colorString = "#F5A12A";
 		} else if (k == 1){
-			colorString = "#EA7C7E";
+			colorString = "#EA6E34";
 		} else {
 			colorString = "#E03A3E";
 		}
@@ -630,7 +630,7 @@ var chart = new Highcharts.Chart({
         text: 'How Population of Beg/Int/Adv has changed over the years'
     },
     subtitle: {
-        text: 'yellow: beginner, red: intermediate, black: advanced. Click and drag the box to move it around!'
+        text: 'Yellow: beginner, Red: intermediate, Black: advanced. Click and drag the box to look from different angles!'
     },
     plotOptions: {
         	lineWidth: 2,
