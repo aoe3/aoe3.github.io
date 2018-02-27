@@ -630,7 +630,7 @@ var chart = new Highcharts.Chart({
         text: 'How Population of Beg/Int/Adv has changed over the years'
     },
     subtitle: {
-        text: 'yellow: beginner, red: intermediate, black: advanced. Click and drag the box to see.'
+        text: 'yellow: beginner, red: intermediate, black: advanced. Click and drag the box to move it around!'
     },
     plotOptions: {
         	lineWidth: 2,
