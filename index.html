@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+				background-color: black;
+			}
+			.oneYear{
+				margin-top: 15px;
+				margin-left: 20px;
+				margin-right: 20px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: rgba(254,254,254,0.4);
+				border-radius: 5px;
+			}
+			h1 {
+				font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+				text-align: center;
+				font-size: 22px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: 100;
+				line-height: 26.4px;
+				color: #E5094B;
+			}
+			h2{
+				margin-left: 5%;
+				margin-right: 5%;
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 200;
+				line-height: 20.4px;
+			}
+			h3{
+				margin-left: 5%;
+				margin-right: 5%;
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 200;
+				line-height: 15.4px;
+			}
+
+			svg{
+				margin-left:auto; 
+				margin-right:auto; 
+				display:block;
+			}
+			.svgtext{
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 200;
+			}
+
+			.rubric{
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 14px;
+				font-weight: 200;
+			}
+			#xpoveryears {
+			    height: 400px; 
+			    min-width: 310px; 
+			    max-width: 1200px;
+			    margin-top: 20px;
+			    margin-left: auto;
+			    margin-right: auto;
+			    background-color: rgba(254,254,254,0.4);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="intro">
+			<h1>Best viewed on laptop or desktop. No other guarantees. Thank you for understanding.</h1>
+			<h2>This is a statistical breakdown of the <strong>Adult</strong> division of competition at University Wushu Games. Senior, Child, Youth, and Group A/B/C divisions are not displayed, as I felt a bit lazy after scraping data from <a href="http://terpwushu.org/tournament/scores.php" target="_blank">TerpWushu</a>'s site (Sorry.) :p </h2>
+
+
+			<h2>No competitor is represented more than once in the data, and each competitor object created in the code contains an array of their participated events, so as to prevent duplicates from occurring.</h2>
+		</div>
+		<div class="oneYear" id="6th-uwg"></div>
+		<div class="oneYear" id="7th-uwg"></div>
+		<div class="oneYear" id="8th-uwg"></div>
+		<div class="oneYear" id="9th-uwg"></div>
+		<div class="oneYear" id="10th-uwg"></div>
+		<div class="oneYear" id="11th-uwg"></div>
+		<div class="oneYear" id="12th-uwg"></div>
+		<div class="oneYear" id="13th-uwg"></div>
+		<div id="xpoveryears"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+		<script type="text/javascript" src="breakdown.js"></script>
+	</body>
+</html>
