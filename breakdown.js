@@ -527,7 +527,7 @@ for(j = 0; j < arrYearData.length; j++){
 			.attr("x", width/2)
 			.attr("y", yScale(l+0.5)+5)
 			.attr("class", "svgtext")
-			.text(""+labelNums[l][0]+" | "+labels[l]+" | "+labelNums[l][1]+"")
+			.text(""+labels[l]+"")
 			.attr("text-anchor", "middle")
 			.style("stroke", "black")
 	}
@@ -630,7 +630,7 @@ var chart = new Highcharts.Chart({
         text: 'How Population of Beg/Int/Adv has changed over the years'
     },
     subtitle: {
-        text: 'Yellow: beginner, Red: intermediate, Black: advanced. Click and drag the box to look from different angles!'
+        text: 'yellow: beginner, red: intermediate, black: advanced. Click and drag the box to see.'
     },
     plotOptions: {
         	lineWidth: 2,
