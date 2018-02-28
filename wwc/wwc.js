@@ -362,7 +362,8 @@ for(w=0; w<toPlot.length;w++){
 	    	idString = "."+this.id;
 	    	d3.select(idString)
 	    		.style("font-weight", "bold")
-	    		.style("fill", "#4682b4") 
+	    		.style("fill", "#4682b4")
+			.style("font-size", "16px");
 
       		d3.select(this)                         
 	        	.style("stroke-width",'5px')
@@ -376,7 +377,8 @@ for(w=0; w<toPlot.length;w++){
 	    	idString = "."+this.id;
 	    	d3.select(idString)
 	    		.style("font-weight", "normal")
-	    		.style("fill", "black")   
+	    		.style("fill", "black")
+			.style("font-size", "12px");   
 
       		d3.select(this)
         		.style("stroke-width",'3px')
