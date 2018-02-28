@@ -194,7 +194,7 @@ for(q=0; q< seenCountry.length; q++){
 			if((q%2) == 0){
 				return yScale(0)-(margin.bottom/2);
 			} else {
-				return yScale(0)-(margin.bottom/4);
+				return yScale(0);
 			}
 		})
 		.attr("class", "barChartText")
