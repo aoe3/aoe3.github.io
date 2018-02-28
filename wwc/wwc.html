@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+				background-color: #fffff3;
+			}
+			div{
+				margin-top: 15px;
+				margin-left: 20px;
+				margin-right: 20px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: rgba(254,254,254,0.5);
+				border-radius: 5px;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+			}
+			h1 {
+				font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+				text-align: center;
+				font-size: 22px;
+				font-style: normal;
+				font-variant: normal;
+				font-weight: 100;
+				line-height: 26.4px;
+				color: grey;
+			}
+			h2{
+				margin-left: 10%;
+				margin-right: 10%;
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 200;
+				line-height: 20.4px;
+			}
+			h3{
+				text-align: center;
+			}
+			p{
+				margin-left: 20%;
+				margin-right: 20%;
+				text-align: center;
+			}
+			svg{
+				margin-left:auto; 
+				margin-right:auto; 
+				display:block;
+			}
+			.svgtext{
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 200;
+			}
+
+			.rubric{
+				text-align: center;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+				font-size: 14px;
+				font-weight: 200;
+			}
+			.note{
+				color: red;
+			}
+			/*#xpoveryears {
+			    height: 400px; 
+			    min-width: 310px; 
+			    max-width: 1200px;
+			    margin-top: 20px;
+			    margin-left: auto;
+			    margin-right: auto;
+			    background-color: rgba(254,254,254,0.4);
+			}*/
+			.example{
+				font-size: 14px;
+				margin: auto;
+			}
+			.svgText{
+				font-size: 12px;
+			}
+
+			div.tooltip {	
+			    position: absolute;			
+			    text-align: center;			
+			    width: 60px;					
+			    height: 28px;					
+			    padding: 2px;				
+			    font: 12px sans-serif;		
+			    background: lightsteelblue;	
+			    border: 0px;		
+			    border-radius: 8px;			
+			    pointer-events: none;			
+			}
+		</style>
+	</head>
+	<body>
+		<div id="intro">
+			<h1>Best viewed on laptop or desktop. No other guarantees. Thank you for understanding.</h1>
+			<h2>This is a statistical breakdown of the <strong>taolu</strong> medals counts for the World Wushu Championships. To be part of the dataset, a country must have placed first, second, or third in at least one <strong>taolu</strong> event from 1991 (1st WWC) to 2017 (14th WWC). Almost all stats were obtained and sorted from the <a href="http://www.iwuf.org/results/" target="_blank">IWUF website</a>.</h2>
+
+			<h2><span class="note"><strong>Note 1:</strong></span> For the 4th WWC in the IWUF website, the file did not contain country affiliations for the <strong>taolu</strong> medalists, as seen <a href="http://www.iwuf.org/upload/2015/0105/64b2c3e332b20602667514c391ce4a3afe10c411.pdf" target="_blank">here</a>. As a result, the data will be pulled from <a href="http://www.beijingwushuteam.com/articles/wushufund.html" target = "_blank">this site</a>. Special thanks to <a href="http://www.beijingwushuteam.com/" target = "_blank">beijingwushuteam.com</a> for having these records up!</h2>
+
+			<h2><span class="note"><strong>Note 2:</strong></span> In the IWUF results, there are many occurrences where countries tie for first or second, and the next rank is 4th. There are also a few occurrences where countries tie for third. In all of these cases, a country's rank is recorded exactly as the IWUF reported it.
+				<br><br>
+				<span class="example">(hypothetical example 1: {place:2 ; nations:["JPN", "SGP"]} - Both Japan and Singapore will be represented as second place in the data. There will be no third place.)</span>
+				<br><br>
+				<span class="example">(hypothetical example 2: {place:3 ; nations:["USA", "CAN"]} - Both the United States and Canada will be represented as third place in the data. There will still be a first and second place.)</span>
+				<br><br>
+
+			Therefore, the number of third, second and first place winners will not be equal, unlike what you would expect if only one country could place in a certain spot.</h2>
+
+			<h2><strong>Sanda is not included in this dataset.</strong></h2>
+		</div>
+		<div id="wwcGlobal"></div>
+		<div id="wwcTime"></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="http://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+		<script type="text/javascript" src="wwc.js"></script>
+	</body>
+</html>
