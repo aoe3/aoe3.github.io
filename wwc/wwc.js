@@ -257,7 +257,7 @@ newHeader.appendChild(newIntro);
 divTime.appendChild(newHeader);
 
 var newText = document.createElement("p");
-var text = document.createTextNode("Hover over lines to highlight them and find out which country they belong to in the left-side key. On mobile, try to zoom in, tap the line you want, and zoom back out to see which country name it corresponds to,");
+var text = document.createTextNode("Hover over lines to highlight them and find out which country they belong to in the left-side key. On mobile, try to zoom in, tap the line you want to see, and zoom out to see what country it corresponds to. Sorry for the lack of mobile optimization.");
 newText.appendChild(text);
 divTime.appendChild(newText);
 
@@ -362,8 +362,8 @@ for(w=0; w<toPlot.length;w++){
 	    	idString = "."+this.id;
 	    	d3.select(idString)
 	    		.style("font-weight", "bold")
-	    		.style("fill", "#4682b4")
-			.style("font-size", "16px");
+	    		.style("fill", "#4682b4") 
+				.style("font-size", "16px");
 
       		d3.select(this)                         
 	        	.style("stroke-width",'5px')
@@ -377,8 +377,8 @@ for(w=0; w<toPlot.length;w++){
 	    	idString = "."+this.id;
 	    	d3.select(idString)
 	    		.style("font-weight", "normal")
-	    		.style("fill", "black")
-			.style("font-size", "12px");   
+	    		.style("fill", "black") 
+				.style("font-size", "12px");  
 
       		d3.select(this)
         		.style("stroke-width",'3px')
@@ -414,4 +414,11 @@ for(z=0; z<=loadedData.length; z++){
 		.attr("transform", "translate(0.5,"+(-margin.bottom)+")");
 }
 
-
+for(aa=0; aa<loadedData.length; aa++){
+	svg2.append("text")
+		.attr("x", xScale2(aa+1))
+		.attr("y", yScale2(0)-30)
+		.style("font-size", "12px")
+		.attr("text-anchor", "middle")
+		.text("WWC"+(aa+1));
+}
