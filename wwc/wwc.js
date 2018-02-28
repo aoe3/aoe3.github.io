@@ -257,7 +257,7 @@ newHeader.appendChild(newIntro);
 divTime.appendChild(newHeader);
 
 var newText = document.createElement("p");
-var text = document.createTextNode("Hover over lines to highlight them and find out which country they belong to in the left-side key.");
+var text = document.createTextNode("Hover over lines to highlight them and find out which country they belong to in the left-side key. On mobile, try to zoom in, tap the line you want, and zoom back out to see which country name it corresponds to,");
 newText.appendChild(text);
 divTime.appendChild(newText);
 
