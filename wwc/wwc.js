@@ -345,7 +345,7 @@ for(x=0; x<seenCountry.length; x++){
 		.attr("class", idCountry)
 		.style("font-size", "12px")
 		.text(seenCountry[x])
-		.attr("transform", "translate("+(-width/10+margin.left+10)+","+(-margin.bottom+15)+")");
+		.attr("transform", "translate("+((-width/10)+15)+","+(-margin.bottom+15)+")");
 }
 
 console.log(toPlot.length);
