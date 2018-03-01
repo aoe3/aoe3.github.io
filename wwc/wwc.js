@@ -339,32 +339,61 @@ var d3Line = d3.line()
 
 for(x=0; x<seenCountry.length; x++){
 	idCountry = seenCountry[x];
+	console.log("hello");
 	svg2.append("text")
 		.attr("x", xScale(0))
 		.attr("y", yScale(((seenCountry.length-x)/(seenCountry.length)) * upperBound))
 		.attr("class", idCountry)
+		.attr("id", "shadow")
+		.text(idCountry)
 		.style("font-size", "12px")
-		.text(seenCountry[x])
-		.attr("transform", "translate("+((-width/10)+15)+","+(-margin.bottom+15)+")");
+		.style("fill", color[x%color.length])
+		.attr("transform", "translate("+((-width/10)+15)+","+(-margin.bottom+15)+")")
+		.on("mouseover", function (d) {
+	    	idString = "#"+this.getAttribute("class");
+	    	d3.select(idString)      
+	        	.style("stroke-width",'5px')
+
+      		d3.select(this)
+	    		.style("font-weight", "bold")
+				.style("font-size", "16px");         
+        	
+        	var selectthegraphs = $('.thegraph').not(idString);    
+        	d3.selectAll(selectthegraphs)
+        		.style("opacity",0.2);
+        })
+        .on("mouseout",	function(d) { 
+	    	idString = "#"+this.getAttribute("class");
+	    	d3.select(idString)
+        		.style("stroke-width",'3px')
+
+      		d3.select(this)
+	    		.style("font-weight", "normal")
+				.style("font-size", "12px");  
+
+			var selectthegraphs = $('.thegraph').not(idString);
+        	d3.selectAll(selectthegraphs)
+        		.style("opacity",1);
+        	
+        });;
+	console.log("hi");
 }
 
-console.log(toPlot.length);
+console.log(seenCountry.length + ", " + toPlot.length);
+
 for(w=0; w<toPlot.length;w++){
 	svg2.append("path")
 	    .attr("class", "thegraph")
-	    .attr("id", seenCountry[w]+" "+color[w%color.length])
+	    .attr("id", seenCountry[w])
 	    .style("stroke", color[w%color.length])
-	    .attr("id2", color[w%color.length])
 	    .style("stroke-width", '3px')
 	    .style("fill", "none")
 		.attr("transform", "translate(0,"+(-margin.bottom)+")")
 	    .attr("d",d3Line(toPlot[w]))
 	    .on("mouseover", function (d) {
-	    	var substring = this.id.split(" ");
-	    	idString = "."+substring[0];
+	    	idString = "."+this.id
 	    	d3.select(idString)
 	    		.style("font-weight", "bold")
-	    		.style("fill", substring[1])
 				.style("font-size", "16px");
 
       		d3.select(this)                         
@@ -375,11 +404,9 @@ for(w=0; w<toPlot.length;w++){
         		.style("opacity",0.2);
         })
         .on("mouseout",	function(d) { 
-	    	var substring = this.id.split(" ");
-	    	idString = "."+substring[0];
+	    	idString = "."+this.id
 	    	d3.select(idString)
 	    		.style("font-weight", "normal")
-	    		.style("fill", "black")
 				.style("font-size", "12px");  
 
       		d3.select(this)
@@ -423,5 +450,3 @@ for(aa=0; aa<loadedData.length; aa++){
 		.attr("text-anchor", "middle")
 		.text("WWC"+(aa+1));
 }
-
-
