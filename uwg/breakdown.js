@@ -339,7 +339,6 @@ for(l = 0; l<arrYearData.length; l++){
 }
 
 for(j = 0; j < arrYearData.length; j++){
-	console.log(j);
 	// var combinedGenXPRatio = (arrYearGenXPRatio[j][0][0]+ 
 	// 			arrYearGenXPRatio[j][0][1]+ 
 	// 			arrYearGenXPRatio[j][1][0]+ 
