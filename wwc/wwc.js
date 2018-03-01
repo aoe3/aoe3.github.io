@@ -248,6 +248,14 @@ for(r=0; r<=upperBound; r+=5){
 		.attr("transform", "translate(0.5,"+(-margin.bottom)+")");
 }
 
+
+svg.append("text")
+	.attr("x", width/20-(margin.left/2))
+	.attr("y", height/2-margin.top)
+	.attr("text-anchor","middle")
+	.attr("class", "barChartText")
+	.style("font-size", "12px")
+	.text("Number of Medals");
 //we've shown the breakdown by totals. now let's see things over time
 
 var divTime = document.getElementById("wwcTime");
