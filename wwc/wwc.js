@@ -152,7 +152,7 @@ divTotals.appendChild(nuHeader);
 
 var nuText = document.createElement("p");
 var txt = document.createTextNode("The ordering is based off of the following scoring criteria: gold = 3 points, silver = 2 points, and bronze = 1 point." + 
-	" Countries are plotted from highest score to lowest. You can hover over the bars to see exactly how many of each medal each country won. This is not supported on mobile");
+	" Countries are plotted from highest score to lowest. You can hover over the bars to see exactly how many of each medal each country won. This is not supported on mobile.");
 nuText.appendChild(txt);
 divTotals.appendChild(nuText);
 
