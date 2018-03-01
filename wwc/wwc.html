@@ -3,7 +3,7 @@
 	<head>
 		<style>
 			body{
-				background-color: #fffff3;
+				background-color: rgba(2,2,2,0.8);
 			}
 			div{
 				margin-top: 15px;
@@ -99,18 +99,9 @@
 			<h1>Best viewed on laptop or desktop. No other guarantees. Thank you for understanding.</h1>
 			<h2>This is a statistical breakdown of the <strong>taolu</strong> medals counts for the World Wushu Championships. To be part of the dataset, a country must have placed first, second, or third in at least one <strong>taolu</strong> event from 1991 (1st WWC) to 2017 (14th WWC). Almost all stats were obtained and sorted from the <a href="http://www.iwuf.org/results/" target="_blank">IWUF website</a>.</h2>
 
-			<h2><span class="note"><strong>Note 1:</strong></span> For the 4th WWC in the IWUF website, the file did not contain country affiliations for the <strong>taolu</strong> medalists, as seen <a href="http://www.iwuf.org/upload/2015/0105/64b2c3e332b20602667514c391ce4a3afe10c411.pdf" target="_blank">here</a>. As a result, the data will be pulled from <a href="http://www.beijingwushuteam.com/articles/wushufund.html" target = "_blank">this site</a>. Special thanks to <a href="http://www.beijingwushuteam.com/" target = "_blank">beijingwushuteam.com</a> for having these records up!</h2>
-
-			<h2><span class="note"><strong>Note 2:</strong></span> In the IWUF results, there are many occurrences where countries tie for first or second, and the next rank is 4th. There are also a few occurrences where countries tie for third. In all of these cases, a country's rank is recorded exactly as the IWUF reported it.
-				<br><br>
-				<span class="example">(hypothetical example 1: {place:2 ; nations:["JPN", "SGP"]} - Both Japan and Singapore will be represented as second place in the data. There will be no third place.)</span>
-				<br><br>
-				<span class="example">(hypothetical example 2: {place:3 ; nations:["USA", "CAN"]} - Both the United States and Canada will be represented as third place in the data. There will still be a first and second place.)</span>
-				<br><br>
-
-			Therefore, the number of third, second and first place winners will not be equal, unlike what you would expect if only one country could place in a certain spot.</h2>
-
 			<h2><strong>Sanda is not included in this dataset.</strong></h2>
+
+			<p>Please see the bottom of the page for info on the data sets.</p>
 		</div>
 		<div id="wwcGlobal"></div>
 		<div id="wwcTime"></div>
@@ -119,5 +110,17 @@
 		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
 		<script type="text/javascript" src="wwc.js"></script>
+		<div>
+		<h2><span class="note"><strong>Note 1:</strong></span> For the 4th WWC in the IWUF website, the file did not contain country affiliations for the <strong>taolu</strong> medalists, as seen <a href="http://www.iwuf.org/upload/2015/0105/64b2c3e332b20602667514c391ce4a3afe10c411.pdf" target="_blank">here</a>. As a result, the data will be pulled from <a href="http://www.beijingwushuteam.com/articles/wushufund.html" target = "_blank">this site</a>. Special thanks to <a href="http://www.beijingwushuteam.com/" target = "_blank">beijingwushuteam.com</a> for having these records up!</h2>
+		
+			<h2><span class="note"><strong>Note 2:</strong></span> In the IWUF results, there are many occurrences where countries tie for first or second, and the next rank is 4th. There are also a few occurrences where countries tie for third. In all of these cases, a country's rank is recorded exactly as the IWUF reported it.
+				<br><br>
+				<span class="example">(hypothetical example 1: {place:2 ; nations:["JPN", "SGP"]} - Both Japan and Singapore will be represented as second place in the data. There will be no third place.)</span>
+				<br><br>
+				<span class="example">(hypothetical example 2: {place:3 ; nations:["USA", "CAN"]} - Both the United States and Canada will be represented as third place in the data. There will still be a first and second place.)</span>
+				<br><br>
+
+			Therefore, the number of third, second and first place winners will not be equal, unlike what you would expect if only one country could place in a certain spot.</h2>
+		</div>
 	</body>
 </html>
