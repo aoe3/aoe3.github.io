@@ -353,7 +353,7 @@ for(w=0; w<toPlot.length;w++){
 	svg2.append("path")
 	    .attr("class", "thegraph")
 	    .attr("id", seenCountry[w])
-	    .style("stroke", "rgba(2,2,2,0.5)")
+	    .style("stroke", "rgba(2,2,2,0.3)")
 	    .style("stroke-width", '3px')
 	    .style("fill", "none")
 		.attr("transform", "translate(0,"+(-margin.bottom)+")")
@@ -382,7 +382,7 @@ for(w=0; w<toPlot.length;w++){
 
       		d3.select(this)
         		.style("stroke-width",'3px')
-        		.style("stroke", "rgba(2,2,2,0.5)");
+        		.style("stroke", "rgba(2,2,2,0.3)");
         	
         	var selectthegraphs = $('.thegraph').not(this);
         	d3.selectAll(selectthegraphs)
