@@ -152,7 +152,7 @@ divTotals.appendChild(nuHeader);
 
 var nuText = document.createElement("p");
 var txt = document.createTextNode("The ordering is based off of the following scoring criteria: gold = 3 points, silver = 2 points, and bronze = 1 point." + 
-	" Countries are plotted from highest score to lowest.");
+	" Countries are plotted from highest score to lowest. You can hover over the bars to see exactly how many of each medal each country won.");
 nuText.appendChild(txt);
 divTotals.appendChild(nuText);
 
@@ -210,30 +210,90 @@ for(q=0; q< seenCountry.length; q++){
 		.attr("x", xScale(q))
 		.attr("y", yScale(numGold))
 		.attr("width", xScale(1)-xScale(0))
+		.attr("id", seenCountry[q]+": "+seenMedals[q][0]+" gold")
 		.attr("height", yScale(numSilv) - yScale(numGold))
 		.attr("transform", "translate(0.5,"+(-margin.bottom)+")")
 		.style("fill", "gold")
-		.style("stroke", "black");
+		.style("stroke", "black")
+		.on("mouseover", function(d) {
+			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
+			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numSilv) - yScale(numGold))/2 + height/2.5 - 10
+
+			d3.select("#tooltip")
+				.style("left", xPosition + "px")
+				.style("top", yPosition + "px")
+				.select("#value")
+				.text(this.id);
+
+			d3.select("#tooltip").classed("hidden", false);
+
+	    })
+	    .on("mouseout", function() {
+
+
+			d3.select("#tooltip").classed("hidden", true);
+
+	    });
 
 	// //create silver bar
 	svg.append("rect")
 		.attr("x", xScale(q))
 		.attr("y", yScale(numSilv))
+		.attr("id", seenCountry[q]+": "+seenMedals[q][1]+" silver")
 		.attr("width", xScale(1)-xScale(0))
 		.attr("height", yScale(numBrnz) - yScale(numSilv))
 		.attr("transform", "translate(0.5,"+(-margin.bottom)+")")
 		.style("fill", "silver")
-		.style("stroke", "black");
+		.style("stroke", "black")
+		.on("mouseover", function(d) {
+			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
+			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numBrnz) - yScale(numSilv))/2 + height/2.5 - 10
+
+			d3.select("#tooltip")
+				.style("left", xPosition + "px")
+				.style("top", yPosition + "px")
+				.select("#value")
+				.text(this.id);
+
+			d3.select("#tooltip").classed("hidden", false);
+
+	    })
+	    .on("mouseout", function() {
+
+
+			d3.select("#tooltip").classed("hidden", true);
+
+	    });
 
 	// //create bronze bar
 	svg.append("rect")
 		.attr("x", xScale(q))
 		.attr("y", yScale(numBrnz))
+		.attr("id", seenCountry[q]+": "+seenMedals[q][2]+" bronze")
 		.attr("width", xScale(1)-xScale(0))
 		.attr("height", yScale(0) - yScale(numBrnz))
 		.attr("transform", "translate(0.5,"+(-margin.bottom)+")")
 		.style("fill", "#CD7F32")
-		.style("stroke", "black");
+		.style("stroke", "black")
+		.on("mouseover", function(d) {
+			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
+			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(0) - yScale(numBrnz))/2 + height/2.5 - 10
+
+			d3.select("#tooltip")
+				.style("left", xPosition + "px")
+				.style("top", yPosition + "px")
+				.select("#value")
+				.text(this.id);
+
+			d3.select("#tooltip").classed("hidden", false);
+
+	    })
+	    .on("mouseout", function() {
+
+
+			d3.select("#tooltip").classed("hidden", true);
+
+	    });
 }
 
 for(r=0; r<=upperBound; r+=5){
@@ -248,7 +308,6 @@ for(r=0; r<=upperBound; r+=5){
 		.attr("transform", "translate(0.5,"+(-margin.bottom)+")");
 }
 
-
 svg.append("text")
 	.attr("x", width/20-(margin.left/2))
 	.attr("y", height/2-margin.top)
@@ -256,6 +315,7 @@ svg.append("text")
 	.attr("class", "barChartText")
 	.style("font-size", "12px")
 	.text("Number of Medals");
+
 //we've shown the breakdown by totals. now let's see things over time
 
 var divTime = document.getElementById("wwcTime");
@@ -265,7 +325,7 @@ newHeader.appendChild(newIntro);
 divTime.appendChild(newHeader);
 
 var newText = document.createElement("p");
-var text = document.createTextNode("Hover over lines OR labels on the left. On mobile, try to zoom in, tap the line/label you want to see, and zoom out to see what it corresponds to. Sorry for the lack of mobile optimization.");
+var text = document.createTextNode("Hover over lines to highlight them and find out which country they belong to in the left-side key. On mobile, try to zoom in, tap the line you want to see, and zoom out to see what country it corresponds to. Sorry for the lack of mobile optimization.");
 newText.appendChild(text);
 divTime.appendChild(newText);
 
