@@ -65,18 +65,32 @@
 			  stroke-width: .2px;
 			  opacity: 0.8;
 			}
-			div.tooltip {	
-			    position: absolute;			
-			    text-align: center;			
-			    width: 60px;					
-			    height: 28px;					
-			    padding: 2px;				
-			    font: 12px sans-serif;		
-			    background: lightsteelblue;	
-			    border: 0px;		
-			    border-radius: 8px;			
-			    pointer-events: none;			
-			}
+			#tooltip {
+		        position: absolute;
+		      	width: 200px;
+		      	height: auto;
+		      	padding: 10px;
+		      	background-color: white;
+		      	-webkit-border-radius: 10px;
+		      	-moz-border-radius: 10px;
+		      	border-radius: 10px;
+		      	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		      	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		      	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		      	pointer-events: none;
+		    }
+
+		    #tooltip.hidden {
+		      	display: none;
+		    }
+
+		    #tooltip p {
+		      	margin: 0;
+		      	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		      	font-size: 16px;
+		      	line-height: 20px;
+		    }
+
 		</style>
 	</head>
 	<body>
@@ -87,6 +101,9 @@
 			<h2><strong>Sanda is not included in this dataset.</strong></h2>
 
 			<p><span class="note">Note 0:</span> Please see the bottom of the page for info on the data sets.</p>
+		</div>
+		<div id="tooltip" class="hidden">
+		    <p><span id="value"></span></p>
 		</div>
 		<div id="wwcGlobal"></div>
 		<div id="wwcTime"></div>
