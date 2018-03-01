@@ -407,7 +407,6 @@ var d3Line = d3.line()
 
 for(x=0; x<seenCountry.length; x++){
 	idCountry = seenCountry[x];
-	console.log("hello");
 	svg2.append("text")
 		.attr("x", xScale(0))
 		.attr("y", yScale(((seenCountry.length-x)/(seenCountry.length)) * upperBound))
@@ -443,11 +442,8 @@ for(x=0; x<seenCountry.length; x++){
         	d3.selectAll(selectthegraphs)
         		.style("opacity",1);
         	
-        });;
-	console.log("hi");
+        });
 }
-
-console.log(seenCountry.length + ", " + toPlot.length);
 
 for(w=0; w<toPlot.length;w++){
 	svg2.append("path")
