@@ -1,4 +1,4 @@
-$.getJSON("2018.json", function(data) {
+$.getJSON("2017.json", function(data) {
 	var genXPParagraph = document.getElementById("genderXPParagraph");
 
 	var gH = document.createElement("H3"); 
