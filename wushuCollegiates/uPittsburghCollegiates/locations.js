@@ -1,4 +1,4 @@
-$.getJSON("2016.json", function(data) {
+$.getJSON("2018.json", function(data) {
 	var people = data;
 	var localPara = document.getElementById("locationsParagraph");
 
