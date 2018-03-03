@@ -216,8 +216,6 @@ for(q=0; q< seenCountry.length; q++){
 		.style("fill", "gold")
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
-			var xPosition = d3.event.pageX + 10;
-			var yPosition = yScale(numGold) + margin.bottom;
 
 			d3.select("#tooltip").style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px")
 				.select("#value")
@@ -244,12 +242,8 @@ for(q=0; q< seenCountry.length; q++){
 		.style("fill", "silver")
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
-			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
-			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numBrnz) - yScale(numSilv))/2 + height/1.5 - 10
 
-			d3.select("#tooltip")
-				.style("left", xPosition + "px")
-				.style("top", yPosition + "px")
+			d3.select("#tooltip").style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px")
 				.select("#value")
 				.text(this.id);
 
@@ -274,12 +268,8 @@ for(q=0; q< seenCountry.length; q++){
 		.style("fill", "#CD7F32")
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
-			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
-			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(0) - yScale(numBrnz))/2 + height/1.5 - 10
 
-			d3.select("#tooltip")
-				.style("left", xPosition + "px")
-				.style("top", yPosition + "px")
+			d3.select("#tooltip").style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px")
 				.select("#value")
 				.text(this.id);
 
