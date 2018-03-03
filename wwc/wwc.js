@@ -217,7 +217,7 @@ for(q=0; q< seenCountry.length; q++){
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
 			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
-			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numSilv) - yScale(numGold))/2 + height/2.5 - 10
+			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numSilv) - yScale(numGold))/2 + height/1.5 - 10
 
 			d3.select("#tooltip")
 				.style("left", xPosition + "px")
@@ -247,7 +247,7 @@ for(q=0; q< seenCountry.length; q++){
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
 			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
-			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numBrnz) - yScale(numSilv))/2 + height/2.5 - 10
+			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(numBrnz) - yScale(numSilv))/2 + height/1.5 - 10
 
 			d3.select("#tooltip")
 				.style("left", xPosition + "px")
@@ -277,7 +277,7 @@ for(q=0; q< seenCountry.length; q++){
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
 			var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0))/2;
-			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(0) - yScale(numBrnz))/2 + height/2.5 - 10
+			var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(0) - yScale(numBrnz))/2 + height/1.5 - 10
 
 			d3.select("#tooltip")
 				.style("left", xPosition + "px")
