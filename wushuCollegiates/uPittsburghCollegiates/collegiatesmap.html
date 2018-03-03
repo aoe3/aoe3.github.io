@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+	<head>
+
+	</head>
+	<style>
+		body {
+			font: 20px sans-serif;
+			font-weight: 100;
+			color: white;
+			background-color: #CDB87D;
+		}
+
+		div {
+			padding: 20px;
+			background-color: rgba(2,2,2,0.15);
+			max-width: 95%;
+			margin: auto;
+		}
+
+		#locationsParagraph{
+			margin: 20px;
+		}
+
+		#locationsParagraph h3{
+			text-align: center;
+		}
+
+		#locationsParagraph p{
+			margin-top: 0%;
+		}
+
+		#locationsParagraph svg{
+			padding-left: 10%;
+			padding-right: 10%;
+			margin: 0 auto;
+			display: inherit;
+			float: left;
+			margin-top: -2%;
+		}
+
+		.tick{
+			text-align: right;
+		}
+
+		#genderXPParagraph{
+			margin-top: 3%;
+			height: 600px;
+			margin-bottom: 20px;
+		}
+
+		#genderXPParagraph h3{
+			text-align: center;
+		}
+
+		#genderXPParagraph img text {display: none;}
+		#genderXPParagraph img g:hover text {display: block;}
+
+		#genderXPParagraph svg{
+			display: inline;
+		}
+		#svg1{
+			margin-top: 1%;
+			margin-left: 5%;
+			float:left;
+			padding-right: 5%;
+		}
+
+		#svg2{
+			float: left;
+		}
+
+		.states path {
+			stroke-width: 1px;
+			stroke: #CDB87D;
+			fill: #1C2957;
+			cursor: pointer;
+		}
+	/*	.states path:hover, path.highlighted {
+			fill: tomato;
+		}
+	*/
+		.arcs path {
+		  stroke: white;
+		  pointer-events: none;
+		  fill: none;
+		  stroke-width: 1px;
+		  opacity: 0.1;
+		}
+
+		#eventBreakdownParagraph{
+			margin-top: 3%;
+			height: 600px;
+			margin-bottom: 20px;
+		}
+	</style>
+	<body>
+		<div id="locationsParagraph"></div>
+		<div id="genderXPParagraph"></div>
+		<!-- <div id="eventBreakdownParagraph"></div> -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+
+		<script type="text/javascript" src="locations.js"></script>
+		<script type="text/javascript" src="genderXP.js"></script>
+		<!-- <script type="text/javascript" src="eventBreakdown.js"></script> -->
+	</body>
+</html>
