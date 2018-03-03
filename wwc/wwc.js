@@ -219,7 +219,7 @@ for(q=0; q< seenCountry.length; q++){
 			var xPosition = d3.event.pageX + 10;
 			var yPosition = yScale(numGold) + margin.bottom;
 
-			d3.select("#tooltip").style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px"
+			d3.select("#tooltip").style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px")
 				.select("#value")
 				.text(this.id);
 
