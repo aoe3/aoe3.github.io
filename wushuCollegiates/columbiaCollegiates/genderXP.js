@@ -307,8 +307,9 @@ $.getJSON("2016.json", function(data) {
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
 					.style("fill", "#00476b")
-					.attr("id","Percent of school's competitors: "+fraction+"%")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
 					.on("mouseover", function(d) {
+					console.log("here");
 						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
 						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
 
@@ -335,7 +336,28 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#006699");
+					.style("fill", "#006699")
+					
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			//at least one int and adv
 			} else {
 				svg2.append("rect")
@@ -345,7 +367,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#006699");
+					.style("fill", "#006699")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 				
 				svg2.append("rect")
 					.attr("x",10 + xScale(fraction * arrayXPLevel[1])+margin.top)
@@ -354,7 +396,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#00476b");
+					.style("fill", "#00476b")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			}
 
 		//no int, but at least one beginner
@@ -368,7 +430,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#7fb2cc");
+					.style("fill", "#7fb2cc")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			//beginner and adv
 			} else {
 				svg2.append("rect")
@@ -378,7 +460,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#7fb2cc");
+					.style("fill", "#7fb2cc")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 				svg2.append("rect")
 					.attr("x",10 + xScale(fraction * arrayXPLevel[0])+margin.top)
 					.attr("y",yScale(v)-(height/instances.length)+5)
@@ -386,7 +488,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#00476b");
+					.style("fill", "#00476b")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			}
 		//at least one beginner, int
 		} else {
@@ -399,7 +521,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#7fb2cc");
+					.style("fill", "#7fb2cc")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 
 				svg2.append("rect")
 					.attr("x",10 + xScale(fraction * arrayXPLevel[0])+margin.top)
@@ -408,7 +550,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#006699");
+					.style("fill", "#006699")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			} else {
 				svg2.append("rect")
 					.attr("x",10 + xScale(0)+margin.top)
@@ -417,7 +579,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#7fb2cc");
+					.style("fill", "#7fb2cc")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 
 				svg2.append("rect")
 					.attr("x",10 + xScale(fraction * arrayXPLevel[0])+margin.top)
@@ -426,7 +608,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#006699");
+					.style("fill", "#006699")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 
 				svg2.append("rect")
 					.attr("x",10 + xScale(fraction * arrayXPLevel[0]) + xScale(fraction * arrayXPLevel[1])+margin.top)
@@ -435,7 +637,27 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#00476b");
+					.style("fill", "#00476b")
+					.attr("id","Percent of "+seen[v]+"'s competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+					console.log("here");
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			}
 		}
 	}
