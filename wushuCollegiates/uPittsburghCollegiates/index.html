@@ -82,46 +82,81 @@
 		  stroke-width: 1px;
 		  opacity: 0.1;
 		}
-		.dropbtn {
-		    background-color: #3498DB;
-		    color: white;
-		    padding: 16px;
-		    font-size: 16px;
-		    border: none;
-		    cursor: pointer;
+		ul li{
+			list-style: none;
+			margin: auto;
+			display: block;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		}
-
-		.dropbtn:hover, .dropbtn:focus {
-		    background-color: #2980B9;
+		.table {
+			display: table;
+			margin: 0 auto;
 		}
-
-		.dropdown {
-		    position: relative;
-		    display: inline-block;
+		.main{
+			font-size: 20px;
+			font-weight: 400;
 		}
-
-		.dropdown-content {
-		    display: none;
-		    position: absolute;
-		    background-color: #f1f1f1;
-		    min-width: 160px;
-		    overflow: auto;
-		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		    z-index: 1;
+		a{
+			text-decoration: none;
+			font-weight: 200;
 		}
-
-		.dropdown-content a {
-		    color: black;
-		    padding: 12px 16px;
-		    text-decoration: none;
-		    display: block;
+		.vizNav{
+			background-color: none;
 		}
-
-		.dropdown a:hover {background-color: #ddd}
-
-		.show {display:block;}
+		.drop:after {
+			content: "";
+			display: table;
+		}
+		.nav-menu {
+			
+			position:relative;
+			display:inline;
+		}
+		.nav-menu li {
+			text-align: center;
+			display: block;
+			list-style-type: none;
+		}
+		.sub-menu {
+			display:none;
+		}
+		
+		.nav-menu ul li:hover > ul {
+			display:block;
+			margin-left: 5%;
+		}
+		.nav-menu > ul > li:after {
+			content: "\25BC"; /*escaped unicode for the down arrow*/
+			font-size: .5em;
+			display: inline;
+			position: relative;
+		}
 	</style>
 	<body>
+		<div class="vizNav">
+			<nav class="nav-menu">
+				<div class="table">
+					<ul class = "drop">
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../../uwg/index.html">University Wushu Games</a></li>
+						<li><a href="../../wwc/wwc.html">World Wushu Championships</a></li>
+						<li><a href="../../../animation/index.html">Animations/Art</a></li>
+						<li><a href="#!">Other Collegiates</a>
+							<ul class="sub-menu">
+								<li><a href="../uCSDCollegiates/index.html">2013</a></li>
+								<li><a href="../uMDCollegiates/index.html">2014</a></li>
+								<li><a href="../uCIrvineCollegiates/index.html">2015</a></li>
+								<li><a href="../columbiaCollegiates/index.html">2016</a></li>
+								<li><a href="../uWashingtonCollegiates/index.html">2017</a></li>
+								<li><a href="../uPittsburghCollegiates/index.html">2018</a></li>
+							</ul>
+						</li> 
+					</ul>
+				</div>
+			</nav>
+		</div>
 		<div id="locationsParagraph"></div>
 		<div id="genderXPParagraph"></div>
 		<!-- <div id="eventBreakdownParagraph"></div> -->
@@ -132,25 +167,6 @@
 
 		<script type="text/javascript" src="locations.js"></script>
 		<script type="text/javascript" src="genderXP.js"></script>
-		<script>
-		/* When the user clicks on the button, 
-		toggle between hiding and showing the dropdown content */
-		function myFunction() {
-		    document.getElementById("myDropdown").classList.toggle("show");
-		}
-		// Close the dropdown if the user clicks outside of it
-		window.onclick = function(event) {
-		  if (!event.target.matches('.dropbtn')) {
-		    var dropdowns = document.getElementsByClassName("dropdown-content");
-		    var i;
-		    for (i = 0; i < dropdowns.length; i++) {
-		      var openDropdown = dropdowns[i];
-		      if (openDropdown.classList.contains('show')) {
-			openDropdown.classList.remove('show');
-		      }
-		    }
-		  }
-		}
-		</script>
+		
 	</body>
 </html>
