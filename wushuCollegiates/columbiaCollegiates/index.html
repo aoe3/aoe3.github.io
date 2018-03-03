@@ -83,81 +83,49 @@
 		  stroke-width: 1px;
 		  opacity: 0.2;
 		}
-		
-		.navbar {
-		    overflow: hidden;
-		    background-color: #333;
-		    font-family: Arial, Helvetica, sans-serif;
-		}
-		.navbar a {
-		    float: left;
-		    font-size: 16px;
-		    color: white;
-		    text-align: center;
-		    padding: 14px 16px;
-		    text-decoration: none;
-		}
-		.dropdown {
-		    float: left;
-		    overflow: hidden;
-		}
-		.dropdown .dropbtn {
-		    font-size: 16px;    
-		    border: none;
-		    outline: none;
-		    color: white;
-		    padding: 14px 16px;
-		    background-color: inherit;
-		    font-family: inherit;
-		    margin: 0;
-		}
-		.navbar a:hover, .dropdown:hover .dropbtn {
-		    background-color: red;
-		}
-		.dropdown-content {
-		    display: none;
-		    position: absolute;
-		    background-color: #f9f9f9;
-		    min-width: 160px;
-		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		    z-index: 1;
-		}
-		.dropdown-content a {
-		    float: none;
-		    color: black;
-		    padding: 12px 16px;
-		    text-decoration: none;
-		    display: block;
-		    text-align: left;
-		}
-		.dropdown-content a:hover {
-		    background-color: #ddd;
-		}
-		.dropdown:hover .dropdown-content {
-		    display: block;
-		}
+		    ul li{
+				list-style: none;
+				margin: auto;
+				display: inline;
+				padding-left: 10px;
+				padding-right: 10px;
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		    }
+		    .table {
+				display: table;
+				margin: 0 auto;
+		    }
+		    .main{
+				font-size: 20px;
+				font-weight: 400;
+		    }
+		    a{
+				text-decoration: none;
+				font-weight: 200;
+		    }
 		
 
 	</style>
 	<body>	
-		<div class="navbar">
-		  <a href="../../../index.html">Home</a>
-		  <a href="../../../uwg/index.html">University Wushu Games</a>
-		  <a href="../../../wwc/wwc.html">World Wushu Championships</a>
-		  <a href="../../../animation/index.html">Animations/Art</a>
-		  <div class="dropdown">
-		    <button class="dropbtn">Other Collegiates 
-		      <i class="fa fa-caret-down"></i>
-		    </button>
-		    <div class="dropdown-content">
-		      <a href="../../uCSDCollegiates/index.html">2013</a>
-		      <a href="../../uMDCollegiates/index.html">2014</a>
-		      <a href="../../uCIrvineCollegiates/index.html">2015</a>
-		      <a href="../../columbiaCollegiates/index.html">2016</a>
-		      <a href="../../uWashingtonCollegiates/index.html">2017</a>
-		      <a href="../../uPittsburghCollegiates/index.html">2018</a>
-		    </div>
-		  </div> 
+		<div class="vizNav">
+			<div class="table">
+				<ul>
+					<li><a href="../../../index.html">Home</a></li>
+					<li><a href="../../../uwg/index.html">University Wushu Games</a></li>
+					<li><a href="../../../wwc/wwc.html">World Wushu Championships</a></li>
+					<li><a href="../../../animation/index.html">Animations/Art</a></li>
+					<li class="dropdown">
+						<ul>
+							<li><a href="../../uCSDCollegiates/index.html">2013</a></li>
+							<li><a href="../../uMDCollegiates/index.html">2014</a></li>
+							<li><a href="../../uCIrvineCollegiates/index.html">2015</a></li>
+							<li><a href="../../columbiaCollegiates/index.html">2016</a></li>
+							<li><a href="../../uWashingtonCollegiates/index.html">2017</a></li>
+							<li><a href="../../uPittsburghCollegiates/index.html">2018</a></li>
+						</ul>
+					</li> 
+				</ul>
+			</div>
 		</div>
 		<div id="locationsParagraph"></div>
 		<div id="genderXPParagraph"></div>
