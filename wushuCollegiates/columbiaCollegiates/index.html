@@ -76,12 +76,12 @@
 			cursor: pointer;
 		}
 		.arcs path {
-		  stroke: white;
-		  pointer-events: none;
-		  fill: none;
-		  stroke: black;
-		  stroke-width: 1px;
-		  opacity: 0.2;
+			stroke: white;
+			pointer-events: none;
+			fill: none;
+			stroke: black;
+			stroke-width: 1px;
+			opacity: 0.2;
 		}
 		ul li{
 			list-style: none;
@@ -106,45 +106,59 @@
 		.vizNav{
 			background-color: none;
 		}
-		
-		
-		.dropdown:inactive ul li {
-			display: none;
-		}
-		
-		.dropdown:inactive ul{
-			display: none;
-		}
-		
-		.dropdown:hover ul li {
-			display: block;
-		}
-		
-		.dropdown:hover ul{
-			display: block;
+		.drop:after {
+			content: "";
+			display: table;
 		}
 
+		.nav-menu {
+			position:relative;
+			display:inline-block;
+		}
+
+		.nav-menu li {
+			display: inline;
+			list-style-type: none;
+		}
+
+		.sub-menu {
+			position:absolute;
+			display:none;
+			background: #ccc;
+		}
+		
+		.nav-menu ul li:hover > ul {
+			display:inline-block;
+		}
+		.nav-menu > ul > li:after {
+			content: "\25BC"; /*escaped unicode for the down arrow*/
+			font-size: .5em;
+			display: inline;
+			position: relative;
+		}
 	</style>
 	<body>	
 		<div class="vizNav">
-			<div class="table">
-				<ul>
-					<li><a href="../../index.html">Home</a></li>
-					<li><a href="../../uwg/index.html">University Wushu Games</a></li>
-					<li><a href="../../wwc/wwc.html">World Wushu Championships</a></li>
-					<li><a href="../../../animation/index.html">Animations/Art</a></li>
-					<li class="dropdown">Other Collegiates
-						<ul>
-							<li><a href="../uCSDCollegiates/index.html">2013</a></li>
-							<li><a href="../uMDCollegiates/index.html">2014</a></li>
-							<li><a href="../uCIrvineCollegiates/index.html">2015</a></li>
-							<li><a href="../columbiaCollegiates/index.html">2016</a></li>
-							<li><a href="../uWashingtonCollegiates/index.html">2017</a></li>
-							<li><a href="../uPittsburghCollegiates/index.html">2018</a></li>
-						</ul>
-					</li> 
-				</ul>
-			</div>
+			<nav class="nav-menu">
+				<div class="table">
+					<ul class = "drop">
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../../uwg/index.html">University Wushu Games</a></li>
+						<li><a href="../../wwc/wwc.html">World Wushu Championships</a></li>
+						<li><a href="../../../animation/index.html">Animations/Art</a></li>
+						<li><a href="#!">Other Collegiates</a>
+							<ul class="sub-menu">
+								<li><a href="../uCSDCollegiates/index.html">2013</a></li>
+								<li><a href="../uMDCollegiates/index.html">2014</a></li>
+								<li><a href="../uCIrvineCollegiates/index.html">2015</a></li>
+								<li><a href="../columbiaCollegiates/index.html">2016</a></li>
+								<li><a href="../uWashingtonCollegiates/index.html">2017</a></li>
+								<li><a href="../uPittsburghCollegiates/index.html">2018</a></li>
+							</ul>
+						</li> 
+					</ul>
+				</div>
+			</nav>
 		</div>
 		<div id="locationsParagraph"></div>
 		<div id="genderXPParagraph"></div>
