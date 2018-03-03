@@ -306,7 +306,26 @@ $.getJSON("2016.json", function(data) {
 					.attr("height",height/instances.length)
 			        .attr("stroke", "#0081cc")
 					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#00476b");
+					.style("fill", "#00476b")
+					.attr("id","Percent of school's competitors: "+fraction+"%")
+					.on("mouseover", function(d) {
+						var xPosition = parseFloat(d3.select(this).attr("x")) + (xScale(1)-xScale(0));
+						var yPosition = parseFloat(d3.select(this).attr("y")) +  (yScale(1) - yScale(0))
+
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px")
+							.select("#value")
+							.text(this.id);
+
+						d3.select("#tooltip").classed("hidden", false);
+
+				    	})
+				    		.on("mouseout", function() {
+	
+							d3.select("#tooltip").classed("hidden", true);
+
+				    	});
 			//only int
 			} else if(arrayXPLevel[2] == 0){
 				svg2.append("rect")
