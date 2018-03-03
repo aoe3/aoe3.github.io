@@ -1,6 +1,11 @@
 $.getJSON("2014.json", function(data) {
 	var people = data;
 	var localPara = document.getElementById("locationsParagraph");
+	
+	var loc = document.createElement("H3"); 
+	var locIntro = document.createTextNode("HOSTED BY UMD - COLLEGE PARK");
+	loc.appendChild(locIntro);
+	localPara.appendChild(loc);
 
 	var lH = document.createElement("H3"); 
 	var lIntro = document.createTextNode("COMPETITOR LOCATIONS");
