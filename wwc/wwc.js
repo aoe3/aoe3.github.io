@@ -217,7 +217,7 @@ for(q=0; q< seenCountry.length; q++){
 		.style("stroke", "black")
 		.on("mouseover", function(d) {
 			var xPosition = d3.event.pageX + 10;
-			var yPosition = yScale(numGold);
+			var yPosition = yScale(numGold) - margin.bottom;
 
 			d3.select("#tooltip")
 				.style("left", xPosition + "px")
