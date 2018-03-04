@@ -176,6 +176,7 @@ $.getJSON("2018.json", function(data) {
 
 	var tooltipM = d3.select("#genderXPParagraph")
 	    .append("div")
+	    .attr("class", "tooltip")
 	    .style("position", "absolute")
 	    .style("z-index", "10")
 	    .style("visibility", "hidden")
@@ -185,6 +186,7 @@ $.getJSON("2018.json", function(data) {
 
     var tooltipF = d3.select("#genderXPParagraph")
 	    .append("div")
+	    .attr("class", "tooltip")
 	    .style("position", "absolute")
 	    .style("z-index", "10")
 	    .style("visibility", "hidden")
