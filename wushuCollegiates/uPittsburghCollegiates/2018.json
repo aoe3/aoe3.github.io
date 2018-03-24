@@ -1,397 +1,397 @@
-[{"lastName" : "Qin", "firstName" : "Kevin", "genger" : "M", "school" : "Berklee College of Music", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword"]},
+[{"lastName" : "Qin", "firstName" : "Kevin", "gender" : "M", "school" : "Berklee College of Music", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword"]},
 
-{"lastName" : "Nguyen", "firstName" : "Vivienne", "genger" : "F", "school" : "California State U, Long Beach", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Other Weapon"]},
+{"lastName" : "Nguyen", "firstName" : "Vivienne", "gender" : "F", "school" : "California State U, Long Beach", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Other Weapon"]},
 
-{"lastName" : "Chinn", "firstName" : "Rebecca", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Staff", "Groupset"]},
+{"lastName" : "Chinn", "firstName" : "Rebecca", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Staff", "Groupset"]},
 
-{"lastName" : "Geiger", "firstName" : "Bryanna", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff"]},
+{"lastName" : "Geiger", "firstName" : "Bryanna", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff"]},
 
-{"lastName" : "Lam", "firstName" : "Chi Tun", "genger" : "M", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Lam", "firstName" : "Chi Tun", "gender" : "M", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Levin", "firstName" : "Janette", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Levin", "firstName" : "Janette", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Low", "firstName" : "Tian", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Low", "firstName" : "Tian", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Park", "firstName" : "Haejin", "genger" : "M", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Park", "firstName" : "Haejin", "gender" : "M", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Shu", "firstName" : "Sharon", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Straight sword", "Other Weapon", "Groupset"]},
+{"lastName" : "Shu", "firstName" : "Sharon", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Straight sword", "Other Weapon", "Groupset"]},
 
-{"lastName" : "Tsui", "firstName" : "Jennifer", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Tsui", "firstName" : "Jennifer", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Tim", "genger" : "M", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan (nandu)", "Straight sword"]},
+{"lastName" : "Wang", "firstName" : "Tim", "gender" : "M", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan (nandu)", "Straight sword"]},
 
-{"lastName" : "Xu", "firstName" : "Doris", "genger" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Xu", "firstName" : "Doris", "gender" : "F", "school" : "Columbia U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Yang", "firstName" : "Dielai", "genger" : "F", "school" : "Columbia U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "yang", "firstName" : "dielai", "gender" : "F", "school" : "Columbia U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Gao", "firstName" : "Winni", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Gao", "firstName" : "Winni", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Gray", "firstName" : "Camryn", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Gray", "firstName" : "Camryn", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Gunawan", "firstName" : "Audrey", "genger" : "F", "school" : "Cornell U", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Gunawan", "firstName" : "Audrey", "gender" : "F", "school" : "Cornell U", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Hong", "firstName" : "Xuelin", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Hong", "firstName" : "Xuelin", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Leong", "firstName" : "Ethyn", "genger" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Open Yang", "Taiji Weapon", "Groupset"]},
+{"lastName" : "Leong", "firstName" : "Ethyn", "gender" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Open Yang", "Taiji Weapon", "Groupset"]},
 
-{"lastName" : "Lin", "firstName" : "Kathie", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Lin", "firstName" : "Kathie", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Ng", "firstName" : "Sara", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Groupset"]},
+{"lastName" : "Ng", "firstName" : "Sara", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Groupset"]},
 
-{"lastName" : "Ou", "firstName" : "Christine", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Ou", "firstName" : "Christine", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Vick", "firstName" : "Emily", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Vick", "firstName" : "Emily", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "White", "firstName" : "Everett", "genger" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword"]},
+{"lastName" : "White", "firstName" : "Everett", "gender" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword"]},
 
-{"lastName" : "Wu", "firstName" : "Linfeng", "genger" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Open Barehand", "Other Weapon"]},
+{"lastName" : "Wu", "firstName" : "Linfeng", "gender" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Open Barehand", "Other Weapon"]},
 
-{"lastName" : "Xu", "firstName" : "Helen", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Xu", "firstName" : "Helen", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Yang", "firstName" : "Robert", "genger" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Yang", "firstName" : "Robert", "gender" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Yu", "firstName" : "Erika", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "42 Fist", "Groupset"]},
+{"lastName" : "Yu", "firstName" : "Erika", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "42 Fist", "Groupset"]},
 
-{"lastName" : "Yu", "firstName" : "Lisa", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Trad Long Weapon"]},
+{"lastName" : "Yu", "firstName" : "Lisa", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Trad Long Weapon"]},
 
-{"lastName" : "Zhang", "firstName" : "Albert", "genger" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Zhang", "firstName" : "Albert", "gender" : "M", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Zheng", "firstName" : "Daisy", "genger" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
+{"lastName" : "Zheng", "firstName" : "Daisy", "gender" : "F", "school" : "Cornell U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Chiang", "firstName" : "Michelle", "genger" : "F", "school" : "Harvard U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword"]},
+{"lastName" : "Chiang", "firstName" : "Michelle", "gender" : "F", "school" : "Harvard U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword"]},
 
-{"lastName" : "He", "firstName" : "Elissa", "genger" : "F", "school" : "Massachusetts Institute of Technology", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "He", "firstName" : "Elissa", "gender" : "F", "school" : "Massachusetts Institute of Technology", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Zeng", "firstName" : "Joy", "genger" : "F", "school" : "Massachusetts Institute of Technology", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword"]},
+{"lastName" : "Zeng", "firstName" : "Joy", "gender" : "F", "school" : "Massachusetts Institute of Technology", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword"]},
 
-{"lastName" : "Liang", "firstName" : "Daniel", "genger" : "M", "school" : "New York U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff"]},
+{"lastName" : "Liang", "firstName" : "Daniel", "gender" : "M", "school" : "New York U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff"]},
 
-{"lastName" : "Pham", "firstName" : "Jasmine", "genger" : "F", "school" : "New York U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan"]},
+{"lastName" : "Pham", "firstName" : "Jasmine", "gender" : "F", "school" : "New York U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan"]},
 
-{"lastName" : "Dyer", "firstName" : "Mekenzie", "genger" : "F", "school" : "Northern Arizona U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Dyer", "firstName" : "Mekenzie", "gender" : "F", "school" : "Northern Arizona U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Evely", "firstName" : "Jamie", "genger" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Evely", "firstName" : "Jamie", "gender" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Kim", "firstName" : "Bumjoon", "genger" : "M", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Kim", "firstName" : "Bumjoon", "gender" : "M", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Kuziel", "firstName" : "Olivia", "genger" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan"]},
+{"lastName" : "Kuziel", "firstName" : "Olivia", "gender" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan"]},
 
-{"lastName" : "MacLean", "firstName" : "John", "genger" : "M", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Groupset"]},
+{"lastName" : "MacLean", "firstName" : "John", "gender" : "M", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Groupset"]},
 
-{"lastName" : "moore", "firstName" : "sara", "genger" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan", "Groupset"]},
+{"lastName" : "moore", "firstName" : "sara", "gender" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan", "Groupset"]},
 
-{"lastName" : "Sanfilippo", "firstName" : "Dylan", "genger" : "M", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Sanfilippo", "firstName" : "Dylan", "gender" : "M", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Weyh", "firstName" : "Alexis", "genger" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan", "Groupset"]},
+{"lastName" : "Weyh", "firstName" : "Alexis", "gender" : "F", "school" : "Northern Arizona U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan", "Groupset"]},
 
-{"lastName" : "Bozzi", "firstName" : "Thomas", "genger" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Bozzi", "firstName" : "Thomas", "gender" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Gunnerson", "firstName" : "Alexandre", "genger" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan"]},
+{"lastName" : "Gunnerson", "firstName" : "Alexandre", "gender" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan"]},
 
-{"lastName" : "Guo", "firstName" : "Jeffrey", "genger" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan"]},
+{"lastName" : "Guo", "firstName" : "Jeffrey", "gender" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan"]},
 
-{"lastName" : "Mastruserio", "firstName" : "Noah", "genger" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nandao"]},
+{"lastName" : "Mastruserio", "firstName" : "Noah", "gender" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nandao"]},
 
-{"lastName" : "Seiple", "firstName" : "Mitch", "genger" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
+{"lastName" : "Seiple", "firstName" : "Mitch", "gender" : "M", "school" : "Ohio State U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
 
-{"lastName" : "Escudero", "firstName" : "Caitlin", "genger" : "F", "school" : "Saint Peter's University", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
+{"lastName" : "Escudero", "firstName" : "Caitlin", "gender" : "F", "school" : "Saint Peter's University", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
 
-{"lastName" : "Moua", "firstName" : "Patrick", "genger" : "M", "school" : "San Diego Miramar College", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan (nandu)", "Staff"]},
+{"lastName" : "Moua", "firstName" : "Patrick", "gender" : "M", "school" : "San Diego Miramar College", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan (nandu)", "Staff"]},
 
-{"lastName" : "Chin", "firstName" : "Michelle", "genger" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Short Weapon", "Groupset"]},
+{"lastName" : "Chin", "firstName" : "Michelle", "gender" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Chow", "firstName" : "Jin Yun", "genger" : "F", "school" : "Stanford U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji", "Groupset"]},
+{"lastName" : "Chow", "firstName" : "Jin Yun", "gender" : "F", "school" : "Stanford U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji", "Groupset"]},
 
-{"lastName" : "Crevoisier", "firstName" : "Victoria", "genger" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Crevoisier", "firstName" : "Victoria", "gender" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Dang", "firstName" : "Marianne", "genger" : "F", "school" : "Stanford U", "studentType" : "N", "classEligibility" : 2, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist", "Taiji Weapon"]},
+{"lastName" : "Dang", "firstName" : "Marianne", "gender" : "F", "school" : "Stanford U", "studentType" : "N", "classEligibility" : 2, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist", "Taiji Weapon"]},
 
-{"lastName" : "Du", "firstName" : "William", "genger" : "M", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Open Yang", "Open Chen", "Taiji Weapon", "Straight sword", "Groupset"]},
+{"lastName" : "Du", "firstName" : "William", "gender" : "M", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Open Yang", "Open Chen", "Taiji Weapon", "Straight sword", "Groupset"]},
 
-{"lastName" : "Fang", "firstName" : "Michael", "genger" : "M", "school" : "Stanford U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist"]},
+{"lastName" : "Fang", "firstName" : "Michael", "gender" : "M", "school" : "Stanford U", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist"]},
 
-{"lastName" : "Felix", "firstName" : "Elena", "genger" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Felix", "firstName" : "Elena", "gender" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Luo", "firstName" : "Jessica", "genger" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji", "Groupset"]},
+{"lastName" : "Luo", "firstName" : "Jessica", "gender" : "F", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji", "Groupset"]},
 
-{"lastName" : "Pan", "firstName" : "Angel", "genger" : "M", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
+{"lastName" : "Pan", "firstName" : "Angel", "gender" : "M", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
 
-{"lastName" : "Sy", "firstName" : "Stuart", "genger" : "M", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Groupset"]},
+{"lastName" : "Sy", "firstName" : "Stuart", "gender" : "M", "school" : "Stanford U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Groupset"]},
 
-{"lastName" : "Tham", "firstName" : "Ying Hong", "genger" : "M", "school" : "SUNY Stony Brook", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist", "42 Sword"]},
+{"lastName" : "Tham", "firstName" : "Ying Hong", "gender" : "M", "school" : "SUNY Stony Brook", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist", "42 Sword"]},
 
-{"lastName" : "Atienza", "firstName" : "Jeffson", "genger" : "M", "school" : "U Houston", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff"]},
+{"lastName" : "Atienza", "firstName" : "Jeffson", "gender" : "M", "school" : "U Houston", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff"]},
 
-{"lastName" : "Ullah", "firstName" : "Mohammad", "genger" : "M", "school" : "U Houston", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nandao"]},
+{"lastName" : "Ullah", "firstName" : "Mohammad", "gender" : "M", "school" : "U Houston", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nandao"]},
 
-{"lastName" : "Hodge", "firstName" : "Julian", "genger" : "M", "school" : "U Maryland: Baltimore County", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Hodge", "firstName" : "Julian", "gender" : "M", "school" : "U Maryland: Baltimore County", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Javier", "firstName" : "Irene", "genger" : "F", "school" : "U Maryland: Baltimore County", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword"]},
+{"lastName" : "Javier", "firstName" : "Irene", "gender" : "F", "school" : "U Maryland: Baltimore County", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword"]},
 
-{"lastName" : "Johnson", "firstName" : "Kwynn", "genger" : "M", "school" : "U Maryland: Baltimore County", "studentType" : "U", "classEligibility" : 0, "experienceLevel" : "INT", "events" : ["Staff"]},
+{"lastName" : "Johnson", "firstName" : "Kwynn", "gender" : "M", "school" : "U Maryland: Baltimore County", "studentType" : "U", "classEligibility" : 0, "experienceLevel" : "INT", "events" : ["Staff"]},
 
-{"lastName" : "Calvo", "firstName" : "Robin", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "N", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Broadsword"]},
+{"lastName" : "Calvo", "firstName" : "Robin", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "N", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Broadsword"]},
 
-{"lastName" : "Chan", "firstName" : "Kasey", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Chan", "firstName" : "Kasey", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Chan", "firstName" : "Kyle", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Chan", "firstName" : "Kyle", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Chen", "firstName" : "Benjamin", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Chen", "firstName" : "Benjamin", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Cheng", "firstName" : "Lucas", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff"]},
+{"lastName" : "Cheng", "firstName" : "Lucas", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff"]},
 
-{"lastName" : "Chow", "firstName" : "Dominic", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Chow", "firstName" : "Dominic", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Hwang", "firstName" : "Christine", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Hwang", "firstName" : "Christine", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Jang", "firstName" : "Jae Hee", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Open Barehand", "Groupset"]},
+{"lastName" : "Jang", "firstName" : "Jae Hee", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Open Barehand", "Groupset"]},
 
-{"lastName" : "Koeser", "firstName" : "Kristian", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Open Barehand", "Spear", "Groupset"]},
+{"lastName" : "Koeser", "firstName" : "Kristian", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Open Barehand", "Spear", "Groupset"]},
 
-{"lastName" : "Leung", "firstName" : "Julia", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Spear", "Groupset"]},
+{"lastName" : "Leung", "firstName" : "Julia", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Spear", "Groupset"]},
 
-{"lastName" : "Li", "firstName" : "Tianming", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Li", "firstName" : "Tianming", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Lu", "firstName" : "Alexander", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Open Barehand", "Straight sword", "Groupset"]},
+{"lastName" : "Lu", "firstName" : "Alexander", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Trad Open Barehand", "Straight sword", "Groupset"]},
 
-{"lastName" : "Maples", "firstName" : "Connor", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Maples", "firstName" : "Connor", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Poon", "firstName" : "Francis", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Poon", "firstName" : "Francis", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Tang", "firstName" : "Jason", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Spear", "Groupset"]},
+{"lastName" : "Tang", "firstName" : "Jason", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Spear", "Groupset"]},
 
-{"lastName" : "Tran", "firstName" : "Christopher", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Tran", "firstName" : "Christopher", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Tran", "firstName" : "Brian", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "ADV", "events" : ["Staff"]},
+{"lastName" : "Tran", "firstName" : "Brian", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "ADV", "events" : ["Staff"]},
 
-{"lastName" : "Tu", "firstName" : "Michelle", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Spear", "Groupset"]},
+{"lastName" : "Tu", "firstName" : "Michelle", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Spear", "Groupset"]},
 
-{"lastName" : "Weber", "firstName" : "Claire", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
+{"lastName" : "Weber", "firstName" : "Claire", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Groupset"]},
 
-{"lastName" : "Yang", "firstName" : "Emily", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Yang", "firstName" : "Emily", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Yeh", "firstName" : "Michael", "genger" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff"]},
+{"lastName" : "Yeh", "firstName" : "Michael", "gender" : "M", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff"]},
 
-{"lastName" : "Zhang", "firstName" : "Kelly", "genger" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Short Weapon", "Groupset"]},
+{"lastName" : "Zhang", "firstName" : "Kelly", "gender" : "F", "school" : "U Maryland: College Park", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Her", "firstName" : "Nutong", "genger" : "M", "school" : "U Oregon", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Her", "firstName" : "Nutong", "gender" : "M", "school" : "U Oregon", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Hui", "firstName" : "Jason", "genger" : "M", "school" : "U Oregon", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
+{"lastName" : "Hui", "firstName" : "Jason", "gender" : "M", "school" : "U Oregon", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
 
-{"lastName" : "Yang", "firstName" : "Tommy", "genger" : "M", "school" : "U Oregon", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Yang", "firstName" : "Tommy", "gender" : "M", "school" : "U Oregon", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Bao", "firstName" : "Gina", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "Taiji Weapon", "Groupset"]},
+{"lastName" : "Bao", "firstName" : "Gina", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "Taiji Weapon", "Groupset"]},
 
-{"lastName" : "Chen", "firstName" : "Kevin", "genger" : "M", "school" : "U Pittsburgh", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Straight sword", "Other Weapon", "Groupset"]},
+{"lastName" : "Chen", "firstName" : "Kevin", "gender" : "M", "school" : "U Pittsburgh", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Straight sword", "Other Weapon", "Groupset"]},
 
-{"lastName" : "Dash", "firstName" : "Arie", "genger" : "M", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji"]},
+{"lastName" : "Dash", "firstName" : "Arie", "gender" : "M", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji"]},
 
-{"lastName" : "Hanichak", "firstName" : "Annie", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword"]},
+{"lastName" : "Hanichak", "firstName" : "Annie", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword"]},
 
-{"lastName" : "Li", "firstName" : "Melodee", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword", "Groupset"]},
+{"lastName" : "Li", "firstName" : "Melodee", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword", "Groupset"]},
 
-{"lastName" : "Li", "firstName" : "Jonathan", "genger" : "M", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "24 Taiji", "Broadsword", "Groupset"]},
+{"lastName" : "Li", "firstName" : "Jonathan", "gender" : "M", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "24 Taiji", "Broadsword", "Groupset"]},
 
-{"lastName" : "Lin", "firstName" : "Jo", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji"]},
+{"lastName" : "Lin", "firstName" : "Jo", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji"]},
 
-{"lastName" : "Liu", "firstName" : "Adanna", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword", "Groupset"]},
+{"lastName" : "Liu", "firstName" : "Adanna", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword", "Groupset"]},
 
-{"lastName" : "Marston", "firstName" : "Kevin", "genger" : "M", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji"]},
+{"lastName" : "Marston", "firstName" : "Kevin", "gender" : "M", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "24 Taiji"]},
 
-{"lastName" : "Peng", "firstName" : "Allen", "genger" : "M", "school" : "U Pittsburgh", "studentType" : "N", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Straight sword"]},
+{"lastName" : "Peng", "firstName" : "Allen", "gender" : "M", "school" : "U Pittsburgh", "studentType" : "N", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Straight sword"]},
 
-{"lastName" : "Shi", "firstName" : "Annie", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword", "Groupset"]},
+{"lastName" : "Shi", "firstName" : "Annie", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "24 Taiji", "Straight sword", "Groupset"]},
 
-{"lastName" : "Zhou", "firstName" : "Diana", "genger" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
+{"lastName" : "Zhou", "firstName" : "Diana", "gender" : "F", "school" : "U Pittsburgh", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan"]},
 
-{"lastName" : "Abou Elias", "firstName" : "Janet", "genger" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword", "Staff"]},
+{"lastName" : "Abou Elias", "firstName" : "Janet", "gender" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword", "Staff"]},
 
-{"lastName" : "Devara", "firstName" : "Ethan", "genger" : "M", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Devara", "firstName" : "Ethan", "gender" : "M", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Devara", "firstName" : "Davin", "genger" : "M", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Devara", "firstName" : "Davin", "gender" : "M", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Ho", "firstName" : "Hannah", "genger" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword"]},
+{"lastName" : "Ho", "firstName" : "Hannah", "gender" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword"]},
 
-{"lastName" : "Huang", "firstName" : "Crystal", "genger" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
+{"lastName" : "Huang", "firstName" : "Crystal", "gender" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
 
-{"lastName" : "Zacharias", "firstName" : "Gabrianna", "genger" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword", "Staff"]},
+{"lastName" : "Zacharias", "firstName" : "Gabrianna", "gender" : "F", "school" : "U Texas", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword", "Staff"]},
 
-{"lastName" : "Caballero", "firstName" : "Mario", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Caballero", "firstName" : "Mario", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Chen", "firstName" : "Kenneth", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Chen", "firstName" : "Kenneth", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Levasseur", "firstName" : "Mitchell", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Broadsword", "Groupset"]},
+{"lastName" : "Levasseur", "firstName" : "Mitchell", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Broadsword", "Groupset"]},
 
-{"lastName" : "Lund", "firstName" : "William", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword"]},
+{"lastName" : "Lund", "firstName" : "William", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword"]},
 
-{"lastName" : "Rogers", "firstName" : "CJ", "genger" : "F", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword", "Groupset"]},
+{"lastName" : "Rogers", "firstName" : "CJ", "gender" : "F", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Song", "firstName" : "Erik", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
+{"lastName" : "Song", "firstName" : "Erik", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Ty", "firstName" : "Kevin", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword"]},
+{"lastName" : "Ty", "firstName" : "Kevin", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword"]},
 
-{"lastName" : "Ya", "firstName" : "Joshua", "genger" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword"]},
+{"lastName" : "Ya", "firstName" : "Joshua", "gender" : "M", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword"]},
 
-{"lastName" : "Zhao", "firstName" : "Katie", "genger" : "F", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Broadsword", "Groupset"]},
+{"lastName" : "Zhao", "firstName" : "Katie", "gender" : "F", "school" : "U Virginia", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Broadsword", "Groupset"]},
 
-{"lastName" : "Chang", "firstName" : "Oey", "genger" : "M", "school" : "U Washington", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Staff"]},
+{"lastName" : "Chang", "firstName" : "Oey", "gender" : "M", "school" : "U Washington", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Staff"]},
 
-{"lastName" : "Amoyo", "firstName" : "Shyanne", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand"]},
+{"lastName" : "Amoyo", "firstName" : "Shyanne", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand"]},
 
-{"lastName" : "Fan", "firstName" : "Emily", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Fan", "firstName" : "Emily", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Fu", "firstName" : "Eric", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Soft Weapon", "Groupset"]},
+{"lastName" : "Fu", "firstName" : "Eric", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Soft Weapon", "Groupset"]},
 
-{"lastName" : "Guo", "firstName" : "Olivia", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Straight sword", "Groupset"]},
+{"lastName" : "Guo", "firstName" : "Olivia", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Straight sword", "Groupset"]},
 
-{"lastName" : "Kuang", "firstName" : "Karen", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Staff", "Groupset"]},
+{"lastName" : "Kuang", "firstName" : "Karen", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Staff", "Groupset"]},
 
-{"lastName" : "Li", "firstName" : "Queenie", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Nanquan", "Broadsword", "Staff", "Trad Soft Weapon", "Groupset"]},
+{"lastName" : "Li", "firstName" : "Queenie", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Nanquan", "Broadsword", "Staff", "Trad Soft Weapon", "Groupset"]},
 
-{"lastName" : "Liu", "firstName" : "Alden", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Liu", "firstName" : "Alden", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Lo", "firstName" : "Alyssa", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Lo", "firstName" : "Alyssa", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Ma", "firstName" : "Deborah", "genger" : "F", "school" : "UC Berkeley", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Changquan", "Open Yang", "Broadsword"]},
+{"lastName" : "Ma", "firstName" : "Deborah", "gender" : "F", "school" : "UC Berkeley", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Changquan", "Open Yang", "Broadsword"]},
 
-{"lastName" : "Ngo", "firstName" : "Vincent", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Trad Open Barehand", "Groupset"]},
+{"lastName" : "Ngo", "firstName" : "Vincent", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Trad Open Barehand", "Groupset"]},
 
-{"lastName" : "Springer", "firstName" : "Cecilia", "genger" : "F", "school" : "UC Berkeley", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Internal Open Fist", "Trad Open Barehand", "Trad Long Weapon", "Trad Short Weapon", "Groupset"]},
+{"lastName" : "Springer", "firstName" : "Cecilia", "gender" : "F", "school" : "UC Berkeley", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Internal Open Fist", "Trad Open Barehand", "Trad Long Weapon", "Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Tsang", "firstName" : "Shannon", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Staff", "Groupset"]},
+{"lastName" : "Tsang", "firstName" : "Shannon", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Staff", "Groupset"]},
 
-{"lastName" : "Tsau", "firstName" : "Claire", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Groupset"]},
+{"lastName" : "Tsau", "firstName" : "Claire", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Broadsword", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Julie", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Open Yang", "Trad Open Barehand", "Groupset"]},
+{"lastName" : "Wang", "firstName" : "Julie", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Open Yang", "Trad Open Barehand", "Groupset"]},
 
-{"lastName" : "Wei", "firstName" : "Unique", "genger" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan", "Trad Open Barehand", "Groupset"]},
+{"lastName" : "Wei", "firstName" : "Unique", "gender" : "F", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Nanquan", "Trad Open Barehand", "Groupset"]},
 
-{"lastName" : "Wong", "firstName" : "Henderson", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Other Weapon", "Groupset"]},
+{"lastName" : "Wong", "firstName" : "Henderson", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Other Weapon", "Groupset"]},
 
-{"lastName" : "Yu", "firstName" : "Robert", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Open Barehand", "Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Yu", "firstName" : "Robert", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Open Barehand", "Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Zheng", "firstName" : "Ryan", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Staff", "Groupset"]},
+{"lastName" : "Zheng", "firstName" : "Ryan", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Staff", "Groupset"]},
 
-{"lastName" : "Zhou", "firstName" : "Jemmy", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Zhou", "firstName" : "Jemmy", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Zou", "firstName" : "Jason", "genger" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff", "Groupset"]},
+{"lastName" : "Zou", "firstName" : "Jason", "gender" : "M", "school" : "UC Berkeley", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff", "Groupset"]},
 
-{"lastName" : "Be", "firstName" : "Danny", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword"]},
+{"lastName" : "Be", "firstName" : "Danny", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword"]},
 
-{"lastName" : "Chiu", "firstName" : "Sunny", "genger" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand", "Trad Short Weapon"]},
+{"lastName" : "Chiu", "firstName" : "Sunny", "gender" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand", "Trad Short Weapon"]},
 
-{"lastName" : "Estrada", "firstName" : "Carlos", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Open Chen", "Broadsword", "Groupset"]},
+{"lastName" : "Estrada", "firstName" : "Carlos", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Open Chen", "Broadsword", "Groupset"]},
 
-{"lastName" : "Gomez", "firstName" : "Kimberly", "genger" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Nanquan"]},
+{"lastName" : "Gomez", "firstName" : "Kimberly", "gender" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Nanquan"]},
 
-{"lastName" : "Hwang", "firstName" : "Philip", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Open Chen"]},
+{"lastName" : "Hwang", "firstName" : "Philip", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Open Chen"]},
 
-{"lastName" : "Hwu", "firstName" : "Tiffany", "genger" : "F", "school" : "UC Irvine", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Staff", "Other Weapon"]},
+{"lastName" : "Hwu", "firstName" : "Tiffany", "gender" : "F", "school" : "UC Irvine", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Staff", "Other Weapon"]},
 
-{"lastName" : "Keeney", "firstName" : "Bridget", "genger" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Staff"]},
+{"lastName" : "Keeney", "firstName" : "Bridget", "gender" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Staff"]},
 
-{"lastName" : "Lee", "firstName" : "Simon", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Trad Short Weapon"]},
+{"lastName" : "Lee", "firstName" : "Simon", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Trad Short Weapon"]},
 
-{"lastName" : "Lin", "firstName" : "Kristi", "genger" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword", "Trad Short Weapon", "Groupset"]},
+{"lastName" : "Lin", "firstName" : "Kristi", "gender" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword", "Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Nguyen", "firstName" : "Simon", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Trad Short Weapon", "Groupset"]},
+{"lastName" : "Nguyen", "firstName" : "Simon", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Staff", "Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Partida", "firstName" : "Erick", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Long Weapon"]},
+{"lastName" : "Partida", "firstName" : "Erick", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Long Weapon"]},
 
-{"lastName" : "Singh", "firstName" : "Varun", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
+{"lastName" : "Singh", "firstName" : "Varun", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan"]},
 
-{"lastName" : "Verde", "firstName" : "Lucas", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Nanquan", "Broadsword", "Groupset"]},
+{"lastName" : "Verde", "firstName" : "Lucas", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Nanquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Ryan", "genger" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
+{"lastName" : "Wang", "firstName" : "Ryan", "gender" : "M", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Spear", "Groupset"]},
 
-{"lastName" : "Wong", "firstName" : "Jasmine", "genger" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Nangun", "Groupset"]},
+{"lastName" : "Wong", "firstName" : "Jasmine", "gender" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Nangun", "Groupset"]},
 
-{"lastName" : "Zhu", "firstName" : "Jessica", "genger" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Zhu", "firstName" : "Jessica", "gender" : "F", "school" : "UC Irvine", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Aditya", "firstName" : "Akshara", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Groupset"]},
+{"lastName" : "Aditya", "firstName" : "Akshara", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Trad Open Barehand", "Groupset"]},
 
-{"lastName" : "Aditya", "firstName" : "Chinmaya", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword", "Groupset"]},
+{"lastName" : "Aditya", "firstName" : "Chinmaya", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Chen", "firstName" : "Jasmine", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand"]},
+{"lastName" : "Chen", "firstName" : "Jasmine", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand"]},
 
-{"lastName" : "Chen", "firstName" : "Chuan", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff", "Groupset"]},
+{"lastName" : "Chen", "firstName" : "Chuan", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff", "Groupset"]},
 
-{"lastName" : "Chiang", "firstName" : "Sabrina", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Nanquan", "Broadsword"]},
+{"lastName" : "Chiang", "firstName" : "Sabrina", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Nanquan", "Broadsword"]},
 
-{"lastName" : "Chua", "firstName" : "Clarity", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand", "Trad Short Weapon", "Groupset"]},
+{"lastName" : "Chua", "firstName" : "Clarity", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand", "Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Cong", "firstName" : "Annmarie", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Spear", "Groupset"]},
+{"lastName" : "Cong", "firstName" : "Annmarie", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Spear", "Groupset"]},
 
-{"lastName" : "Hui", "firstName" : "Irwin", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword", "Spear", "Other Weapon"]},
+{"lastName" : "Hui", "firstName" : "Irwin", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Straight sword", "Spear", "Other Weapon"]},
 
-{"lastName" : "Hum", "firstName" : "Connor", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Staff", "Groupset"]},
+{"lastName" : "Hum", "firstName" : "Connor", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Staff", "Groupset"]},
 
-{"lastName" : "Huynh", "firstName" : "Gwyneth", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Huynh", "firstName" : "Gwyneth", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Mach", "firstName" : "Shirley", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Other Weapon"]},
+{"lastName" : "Mach", "firstName" : "Shirley", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Other Weapon"]},
 
-{"lastName" : "Ng", "firstName" : "Xian Kai", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Ng", "firstName" : "Xian Kai", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Ngo", "firstName" : "Melanie", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Straight sword"]},
+{"lastName" : "Ngo", "firstName" : "Melanie", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "E", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Straight sword"]},
 
-{"lastName" : "Nguyen", "firstName" : "Janet", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Nguyen", "firstName" : "Janet", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Nguyen", "firstName" : "Michelle", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Nguyen", "firstName" : "Michelle", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Ono", "firstName" : "Samantha", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Nanquan", "Other Weapon", "Groupset"]},
+{"lastName" : "Ono", "firstName" : "Samantha", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Nanquan", "Other Weapon", "Groupset"]},
 
-{"lastName" : "Tan", "firstName" : "Michelle", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Tan", "firstName" : "Michelle", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Eric", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nangun", "Trad Long Weapon", "Groupset"]},
+{"lastName" : "Wang", "firstName" : "Eric", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nangun", "Trad Long Weapon", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Jennie", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand", "Groupset"]},
+{"lastName" : "Wang", "firstName" : "Jennie", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Trad Open Barehand", "Groupset"]},
 
-{"lastName" : "Wu", "firstName" : "Alexander", "genger" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Trad Short Weapon", "Groupset"]},
+{"lastName" : "Wu", "firstName" : "Alexander", "gender" : "M", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Trad Short Weapon", "Groupset"]},
 
-{"lastName" : "Wu", "firstName" : "Dimei", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Open Chen", "42 Sword", "Straight sword", "Groupset"]},
+{"lastName" : "Wu", "firstName" : "Dimei", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Open Chen", "42 Sword", "Straight sword", "Groupset"]},
 
-{"lastName" : "Yap", "firstName" : "Rebecca", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Yap", "firstName" : "Rebecca", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Zhang", "firstName" : "Kelly", "genger" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Straight sword", "Groupset"]},
+{"lastName" : "Zhang", "firstName" : "Kelly", "gender" : "F", "school" : "UC Los Angeles", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Straight sword", "Groupset"]},
 
-{"lastName" : "Caldas", "firstName" : "John", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nangun"]},
+{"lastName" : "Caldas", "firstName" : "John", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Nangun"]},
 
-{"lastName" : "Chan", "firstName" : "Zoe", "genger" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Other Weapon", "Groupset"]},
+{"lastName" : "Chan", "firstName" : "Zoe", "gender" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Other Weapon", "Groupset"]},
 
-{"lastName" : "CHENG", "firstName" : "BRIAN", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "CHENG", "firstName" : "BRIAN", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Deng", "firstName" : "Darren", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Nanquan", "Nangun", "Groupset"]},
+{"lastName" : "Deng", "firstName" : "Darren", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Nanquan", "Nangun", "Groupset"]},
 
-{"lastName" : "Green", "firstName" : "Ethan", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Staff"]},
+{"lastName" : "Green", "firstName" : "Ethan", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan", "Staff"]},
 
-{"lastName" : "Hu", "firstName" : "Yong-Yi", "genger" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
+{"lastName" : "Hu", "firstName" : "Yong-Yi", "gender" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Changquan"]},
 
-{"lastName" : "Johnson", "firstName" : "Christopher", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword"]},
+{"lastName" : "Johnson", "firstName" : "Christopher", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Straight sword"]},
 
-{"lastName" : "Lee", "firstName" : "Lillian", "genger" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Straight sword"]},
+{"lastName" : "Lee", "firstName" : "Lillian", "gender" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Straight sword"]},
 
-{"lastName" : "Lee", "firstName" : "Winston", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Staff", "Other Weapon", "Groupset"]},
+{"lastName" : "Lee", "firstName" : "Winston", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Trad Open Barehand", "Staff", "Other Weapon", "Groupset"]},
 
-{"lastName" : "Nguyen", "firstName" : "Richard", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Internal Open Fist", "Taiji Weapon", "Groupset"]},
+{"lastName" : "Nguyen", "firstName" : "Richard", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Internal Open Fist", "Taiji Weapon", "Groupset"]},
 
-{"lastName" : "Pribadi", "firstName" : "Amy", "genger" : "F", "school" : "UC San Diego", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist", "42 Sword"]},
+{"lastName" : "Pribadi", "firstName" : "Amy", "gender" : "F", "school" : "UC San Diego", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["24 Taiji", "Open Chen", "42 Fist", "42 Sword"]},
 
-{"lastName" : "Sit", "firstName" : "Michelle", "genger" : "F", "school" : "UC San Diego", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Groupset"]},
+{"lastName" : "Sit", "firstName" : "Michelle", "gender" : "F", "school" : "UC San Diego", "studentType" : "G", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Groupset"]},
 
-{"lastName" : "Trinh", "firstName" : "Kaitlyn", "genger" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
+{"lastName" : "Trinh", "firstName" : "Kaitlyn", "gender" : "F", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Howard", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
+{"lastName" : "Wang", "firstName" : "Howard", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Groupset"]},
 
-{"lastName" : "Wang", "firstName" : "Anthony", "genger" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Broadsword"]},
+{"lastName" : "Wang", "firstName" : "Anthony", "gender" : "M", "school" : "UC San Diego", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "INT", "events" : ["Nanquan", "Broadsword"]},
 
-{"lastName" : "Chen", "firstName" : "Michelle", "genger" : "F", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Chen", "firstName" : "Michelle", "gender" : "F", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Hernandez", "firstName" : "Bienvenido", "genger" : "M", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Hernandez", "firstName" : "Bienvenido", "gender" : "M", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Huie", "firstName" : "Wesley", "genger" : "M", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Groupset"]},
+{"lastName" : "Huie", "firstName" : "Wesley", "gender" : "M", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Broadsword", "Groupset"]},
 
-{"lastName" : "Lee", "firstName" : "Claire", "genger" : "F", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
+{"lastName" : "Lee", "firstName" : "Claire", "gender" : "F", "school" : "Virginia Commonwealth U", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "BEG", "events" : ["Changquan", "Groupset"]},
 
-{"lastName" : "Lu", "firstName" : "Justin", "genger" : "M", "school" : "Virginia Tech", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Staff"]},
+{"lastName" : "Lu", "firstName" : "Justin", "gender" : "M", "school" : "Virginia Tech", "studentType" : "A", "classEligibility" : 2, "experienceLevel" : "BEG", "events" : ["Changquan", "Trad Open Barehand", "Staff"]},
 
-{"lastName" : "Nguyen", "firstName" : "Khang", "genger" : "M", "school" : "Virginia Tech", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff"]}]
+{"lastName" : "Nguyen", "firstName" : "Khang", "gender" : "M", "school" : "Virginia Tech", "studentType" : "U", "classEligibility" : 1, "experienceLevel" : "ADV", "events" : ["Changquan", "Broadsword", "Staff"]}]
