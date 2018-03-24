@@ -53,5 +53,6 @@
 	{"name":"U Southern California", "coords":[-118.2851, 34.0224]},
 	{"name":"SUNY Stony Brook", "coords":[-73.1234, 40.9124]},
 	{"name":"San Diego Miramar College", "coords":[-117.1201, 32.9098]},
-	{"name":"New York U", "coords":[-73.9965, 40.7295]}
+	{"name":"New York U", "coords":[-73.9965, 40.7295]},
+	{"name":"Harvard U", "coords": [-71.1167, 42.3770]}
 ]
