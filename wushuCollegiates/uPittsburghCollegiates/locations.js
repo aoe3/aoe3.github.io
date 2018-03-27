@@ -229,13 +229,15 @@ $.getJSON("2018.json", function(data) {
 	            		var td = tr.insertCell();
 		                td.appendChild(document.createTextNode("School Name"));
 		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
 		                }
 		            } else {
 		            	var td = tr.insertCell();
-		                td.appendChild(document.createTextNode("Number of Competitors"));
+		                td.appendChild(document.createTextNode("No. Sent"));
 		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
 		                }
@@ -245,11 +247,13 @@ $.getJSON("2018.json", function(data) {
 		                var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+keys[i-1]+""));
 		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                
 		            } else {
 		            	var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+schoolsList[keys[i-1]]+""));
 		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                
 		            }
 	            }
