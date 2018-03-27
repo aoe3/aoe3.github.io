@@ -23,7 +23,7 @@ $.getJSON("2016.json", function(data) {
 			for(f=0; f < people.length; f++){
 				var pName = people[f].school;
 				
-				if((places[i].name == pName) && (places[i].name != "U Pittsburgh")){
+				if((places[i].name == pName) && (places[i].name != "Columbia University")){
 					var startCoords = places[i].coords;
 					var targetCoords = places[0].coords;
 					var amt = schoolsList[places[i].name];
