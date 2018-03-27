@@ -245,7 +245,7 @@ $.getJSON("2014.json", function(data) {
 			.attr("y1", yScale1(0))
 			.attr("x2", xScale1(k))
 			.attr("y2", yScale1(6))
-			.style("stroke", "black")
+			.style("stroke", "white")
 			.style("opacity", 0.2)
         	.style("stroke-dasharray", ("3, 3"))
         	.attr("transform", "translate(" + (margin.left*2 - margin.bottom) + " ,9)");
@@ -398,7 +398,7 @@ $.getJSON("2014.json", function(data) {
 			.attr("y1", yScale2(t))
 			.attr("x2", xScale2(seen.length))
 			.attr("y2", yScale2(t))
-			.style("stroke", "black")
+			.style("stroke", "white")
 			.style("opacity", 0.4)
 	    	.style("stroke-dasharray", ("3, 3"))
 			.attr("transform", "translate("+((margin.left*2 - margin.bottom))+","+(5)+")");
