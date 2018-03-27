@@ -216,7 +216,7 @@ $.getJSON("2014.json", function(data) {
 
 	tbl  = document.createElement('table');
     tbl.style.width  = '600px';
-    tbl.style.border = '1px solid black';
+    tbl.style.border = '1px solid grey';
 
     for(var i = 0; i <= (keys.length); i++){
         var tr = tbl.insertRow();
@@ -228,14 +228,14 @@ $.getJSON("2014.json", function(data) {
             		if(j==0){
 	            		var td = tr.insertCell();
 		                td.appendChild(document.createTextNode("School Name"));
-		                td.style.border = '1px solid black';
+		                td.style.border = '1px solid grey';
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
 		                }
 		            } else {
 		            	var td = tr.insertCell();
 		                td.appendChild(document.createTextNode("Number of Competitors"));
-		                td.style.border = '1px solid black';
+		                td.style.border = '1px solid grey';
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
 		                }
@@ -244,12 +244,12 @@ $.getJSON("2014.json", function(data) {
             		if(j==0){
 		                var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+keys[i-1]+""));
-		                td.style.border = '1px solid black';
+		                td.style.border = '1px solid grey';
 		                
 		            } else {
 		            	var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+schoolsList[keys[i-1]]+""));
-		                td.style.border = '1px solid black';
+		                td.style.border = '1px solid grey';
 		                
 		            }
 	            }
