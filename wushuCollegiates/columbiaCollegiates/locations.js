@@ -231,25 +231,29 @@ $.getJSON("2016.json", function(data) {
 		                td.style.border = '1px solid black';
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
+				    td.setAttribute('align', 'center');
 		                }
 		            } else {
 		            	var td = tr.insertCell();
-		                td.appendChild(document.createTextNode("Number of Competitors"));
+		                td.appendChild(document.createTextNode("No. Sent"));
 		                td.style.border = '1px solid black';
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
+				    td.setAttribute('align', 'center');
 		                }
 		            }
             	} else {
             		if(j==0){
 		                var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+keys[i-1]+""));
-		                td.style.border = '1px solid black';
+		                    td.style.border = '1px solid black';
+				    td.setAttribute('align', 'center');
 		                
 		            } else {
 		            	var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+schoolsList[keys[i-1]]+""));
-		                td.style.border = '1px solid black';
+		                    td.style.border = '1px solid black';
+				    td.setAttribute('align', 'center');
 		                
 		            }
 	            }
