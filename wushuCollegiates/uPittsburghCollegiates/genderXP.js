@@ -179,7 +179,7 @@ $.getJSON("2018.json", function(data) {
 		.text("ADV Female")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -187,7 +187,7 @@ $.getJSON("2018.json", function(data) {
 		.text("ADV Male")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -195,7 +195,7 @@ $.getJSON("2018.json", function(data) {
 		.text("INT Female")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -203,7 +203,7 @@ $.getJSON("2018.json", function(data) {
 		.text("INT Male")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -211,7 +211,7 @@ $.getJSON("2018.json", function(data) {
 		.text("BEG Female")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -219,7 +219,7 @@ $.getJSON("2018.json", function(data) {
 		.text("BEG Male")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
 	//#a4b2dc #7d92cd #3e4966
 	for (j = 0; j < arrPopulations.length; j++){
@@ -356,6 +356,7 @@ $.getJSON("2018.json", function(data) {
 		.attr("class", "slantText")
 	    	.style("fill", "grey")
 		.attr("font-size", "12px")
+		.style("fill", "white")
 		.attr("transform", "translate("+((margin.left*2 - margin.bottom)+3)+",20)rotate(45, "+xScale2(s)+","+yScale2(0)+")");
 
     	var breakdown = instancesAggregateClassifier[s];
