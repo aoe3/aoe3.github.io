@@ -1,8 +1,8 @@
 $.getJSON("2015.json", function(data) {
-	var genXPParagraph = document.getElementById("genderXPParagraph");
+    var genXPParagraph = document.getElementById("genderXPParagraph");
 
 	var gH = document.createElement("H3"); 
-	var gIntro = document.createTextNode("GENDER AND EXPERIENCE");
+	var gIntro = document.createTextNode("BREAKDOWN OF EXPERIENCE");
 	gH.appendChild(gIntro);
 	genXPParagraph.appendChild(gH);
 
@@ -119,90 +119,137 @@ $.getJSON("2015.json", function(data) {
 		}
 	};
 
+	var firstGraph = document.createElement("H3"); 
+	var firstIntro = document.createTextNode("Breakdown By Male/Female Divisions");
+	firstGraph.appendChild(firstIntro);
+	genXPParagraph.appendChild(firstGraph);
+
 	var svg = d3.select("#genderXPParagraph").append("svg")
-		.attr("width", width-100)
+		.attr("width", width*3)
 		.attr("height", height)
 		.attr("id","svg1");
-	
-	svg.append("path")
-		.attr('d','M128.95011, 46.58577 L128.95011, 0.04056 A46.54521, 46.54521 1 1, 0 128.95011, 93.13098z')
-		.style('fill','#0064a4')
-		.style('stroke','#ffd200')
-		.style('stroke-width', '2.5px')
-		.attr("transform", "translate(50,0), scale(0.65)")
-		.on("mouseover", function(){return tooltipF.style("visibility", "visible");})
-		.on("mousemove", function(){return tooltipF.style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px");})
-		.on("mouseout", function(){return tooltipF.style("visibility", "hidden");});
 
-	svg.append("path")
-		.attr('d','M128.80188, 388.15534 V549.98933 C124.26193, 579.39154, 80.494976, 579.39154, 80.108304, 549.98933 V388.15534 H22.821751 L84.404788, 171.89962 H74.379644 L38.57554, 295.0651 C29.524278, 322.30474, -7.3109962, 311.27714, 1.3392857, 282.17574 L41.43986, 148.98509 C46.051436, 133.68965, 65.32836, 106.68061, 98.726432, 106.02037 H128.80188z')
-		.style('fill','#0064a4')
-		.style('stroke','#ffd200')
-		.style('stroke-width', '2.5px')
-		.attr("transform", "translate(50,0), scale(0.65)")
-		.on("mouseover", function(){return tooltipF.style("visibility", "visible");})
-		.on("mousemove", function(){return tooltipF.style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px");})
-		.on("mouseout", function(){return tooltipF.style("visibility", "hidden");});
+	var numBegMale = begcount[0];
+	var numBegFemale = begcount[1];
+	var numIntMale = intcount[0];
+	var numIntFemale = intcount[1];
+	var numAdvMale = advcount[0];
+	var numAdvFemale = advcount[1];
 
-	svg.append("path")
-		.attr('d','M515.90545, 46.58577 L515.90545, 0.04056 A46.54521, 46.54521 1 0, 1 515.90545, 93.13098z')
-		.style('fill','#ffd200')
-		.style('stroke',"#0064a4")
-		.style('stroke-width', '2.5px')
-        .attr("transform", "translate(-195,0), scale(0.65)")
-		.on("mouseover", function(){return tooltipM.style("visibility", "visible");})
-		.on("mousemove", function(){return tooltipM.style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px");})
-		.on("mouseout", function(){return tooltipM.style("visibility", "hidden");});
+	var arrPopulations = [numAdvFemale, numAdvMale, numIntFemale, numIntMale, numBegFemale, numBegMale];
 
-	svg.append("path")
-		.attr('d','M515.48597, 106.02037 V330.86906 H515.48597 V549.82853 C516.18773, 579.72094, 570.13733, 580.80938, 569.90817, 542.82853 V179.06038 H579.93333 V310.81886 C579.46073, 339.01802, 619.54701, 339.01802, 620.03389, 310.81886 V167.60313 C619.46109, 137.00793, 595.67281, 106.56889, 559.88305, 106.02037 H515.49589z')
-		.style('fill','#ffd200')
-		.style('stroke',"#0064a4")
-		.style('stroke-width', '2.5px')
-	    .attr("transform", "translate(-195,0), scale(0.65)")
-		.on("mouseover", function(){return tooltipM.style("visibility", "visible");})
-		.on("mousemove", function(){return tooltipM.style("top", (d3.event.pageY-5)+"px").style("left",(d3.event.pageX+5)+"px");})
-		.on("mouseout", function(){return tooltipM.style("visibility", "hidden");});
+	var maxOfAllPopulations = Math.ceil(Math.max(numBegFemale, Math.max(numBegMale, Math.max(numIntFemale, Math.max(numIntMale, Math.max(numAdvMale, numAdvFemale)))))/10)*10;
+	console.log(maxOfAllPopulations)
+
+	var xScale1 = d3.scale.linear()
+    	.domain([0, maxOfAllPopulations])
+    	.range([0,1000]);
+
+	var yScale1 = d3.scale.linear()
+        .domain([6,0])
+        .range([0,400]);
+
+    var xAxis1 = d3.svg.axis()
+    	.orient("bottom")
+    	.ticks(10)
+    	.scale(xScale1);
+
+    var yAxis1 = d3.svg.axis()
+    	.orient("left")
+    	.tickFormat("")
+    	.scale(yScale1);
+
+    var margin = {top: 30, right: 40, bottom: 30, left: 100};
+    var newHeight = height - margin.top - margin.bottom/2 -1;
+
+    svg.append("g")
+        .attr("transform", "translate(" + (margin.left*2 - margin.bottom) + " ,"+newHeight+")")
+    	.call(xAxis1)
+    	.style("fill", "#1C2957");
+    svg.append("g")
+        .attr("transform", "translate(" + (margin.left*2 - margin.bottom) + " ,10)")
+    	.call(yAxis1)
+    	.style("fill", "#1C2957");
+
+    svg.append("text")
+		.attr("x", 150)
+		.attr("y", yScale1(2) + 40)
+		.text("ADV Female")
+		.attr("text-anchor", "end")
+		.style("alignment-baseline", "middle")
+		.style("fill", "white");
 
 	svg.append("text")
-		.attr("x", 137)
-		.attr("y", 400)
-		.text("Hover over me!")
-		.attr("text-anchor", "middle")
+		.attr("x", 150)
+		.attr("y", yScale1(1) + 40)
+		.text("ADV Male")
+		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "grey");
+		.style("fill", "white");
 
-	// console.log(begcount[0] + intcount[0] + advcount[0] + begcount[1] + intcount[1] + advcount[1]);
+	svg.append("text")
+		.attr("x", 150)
+		.attr("y", yScale1(4) + 40)
+		.text("INT Female")
+		.attr("text-anchor", "end")
+		.style("alignment-baseline", "middle")
+		.style("fill", "white");
 
-	var tooltipF = d3.select("#genderXPParagraph")
-	    .append("div")
-	    .style("position", "absolute")
-	    .style("z-index", "10")
-	    .style("visibility", "hidden")
-	    .style("font-size", "12px")
-	    .style("text-align", "center")
-	    .style("background-color", "white")
-	    .style("opacity", 0.7)
-	    .style("color","black")
-	    .html("There were " + begcount[0] + " people in <br>" + "the female beginner divisions,<br>" + intcount[0] + " in female intermediate,<br>" + "and " + advcount[0] + " in female advanced!");
+	svg.append("text")
+		.attr("x", 150)
+		.attr("y", yScale1(3) + 40)
+		.text("INT Male")
+		.attr("text-anchor", "end")
+		.style("alignment-baseline", "middle")
+		.style("fill", "white");
 
-    var tooltipM = d3.select("#genderXPParagraph")
-	    .append("div")
-	    .style("position", "absolute")
-	    .style("z-index", "10")
-	    .style("visibility", "hidden")
-	    .style("font-size", "12px")
-	    .style("text-align", "center")
-	    .style("background-color", "white")
-	    .style("opacity", 0.7)
-	    .style("color","black")
-	    .html("There were " + begcount[1] + " people in <br>" + "the male beginner divisions,<br>" + intcount[1] + " in male intermediate,<br>" + "and " + advcount[1] + " in male advanced!");
+	svg.append("text")
+		.attr("x", 150)
+		.attr("y", yScale1(6) + 40)
+		.text("BEG Female")
+		.attr("text-anchor", "end")
+		.style("alignment-baseline", "middle")
+		.style("fill", "white");
 
+	svg.append("text")
+		.attr("x", 150)
+		.attr("y", yScale1(5) + 40)
+		.text("BEG Male")
+		.attr("text-anchor", "end")
+		.style("alignment-baseline", "middle")
+		.style("fill", "white");
 
-	var svg2 = d3.select("#genderXPParagraph").append("svg")
-		.attr("width", width*2)
-		.attr("height", height)
-		.attr("id", "svg2");
+	//#ffe466 #ffd200 #997e00
+	for (j = 0; j < arrPopulations.length; j++){
+		var fillcolor ="";
+		if(j < 2){
+			fillcolor = "#997e00";
+		} else if ( j < 4){
+			fillcolor = "#ffd200";
+		} else {
+			fillcolor = "#ffe466";
+		}
+		svg.append("rect")
+			.attr("x", xScale1(0))
+			.attr("y", yScale1(j))
+			.attr("width", xScale1(arrPopulations[j]) - xScale1(0))
+			.attr("height", yScale1(0) - yScale1(1) - 7)
+			.attr("stroke", "#1c2957")
+			.style("fill", fillcolor)
+			.attr("transform", "translate("+(margin.left*2 - margin.bottom)+","+((-margin.bottom*2)+4)+")");
+	}
+
+	for(k=5; k<= maxOfAllPopulations; k+=5){
+		svg.append("line")
+			.attr("x1", xScale1(k))
+			.attr("y1", yScale1(0))
+			.attr("x2", xScale1(k))
+			.attr("y2", yScale1(6))
+			.style("stroke", "black")
+			.style("opacity", 0.2)
+        	.style("stroke-dasharray", ("3, 3"))
+        	.attr("transform", "translate(" + (margin.left*2 - margin.bottom) + " ,9)");
+	}
 
 	var seen = [];
 	var instances = [];
@@ -217,41 +264,6 @@ $.getJSON("2015.json", function(data) {
 			instances[ind].push(person.experienceLevel);
 		}
 	}
-
-	var margin = {top: 30, right: 40, bottom: 30, left: 100};
-    var newHeight = height - margin.top - margin.bottom/2 -1;
-
-    var xScale = d3.scale.linear()
-    	.domain([0, 1])
-    	.range([0,675]);
-
-	var yScale = d3.scale.linear()
-        .domain([seen.length,0])
-        .range([0,400]);
-
-    var formatPercent = d3.format(".0%");
-
-    var xAxis = d3.svg.axis()
-    	.orient("bottom")
-    	.tickFormat(formatPercent)
-    	.ticks(10)
-    	.scale(xScale);
-
-    var yAxis = d3.svg.axis()
-    	.orient("left")
-    	.tickFormat("")
-    	.scale(yScale);
-
-    svg2.append("g")
-        .attr("transform", "translate(" + margin.right + " ,"+newHeight+")")
-    	.call(xAxis)
-    	.style("fill", "grey");
-    svg2.append("g")
-        .attr("transform", "translate(" + margin.right + " ,10)")
-    	.call(yAxis)
-    	.style("fill", "grey");
-
-    
 
     //#ffe466 #ffd200 #997e00
     var counter = [];
@@ -282,174 +294,114 @@ $.getJSON("2015.json", function(data) {
 	    instancesAggregateClassifier.push(agg);
 	    instancesNumberClassifier.push(nuInstance);
     }
-/**for testing stuff*/
- //    for(t = 0; t < instancesNumberClassifier.length; t++){
-	// 	instancesNumberClassifier[t].sort();
-	// }
+// /**for testing stuff*/
+//     for(t = 0; t < instancesNumberClassifier.length; t++){
+// 		instancesNumberClassifier[t].sort();
+// 	}
 
- //    for(u = 0; u < instancesNumberClassifier.length; u++){
-	// 	console.log("[" + seen[u] + " : {classes: " + instancesNumberClassifier[u] + ", total: "+instancesSumClassifier[u]+", brkdown: "+instancesAggregateClassifier[u]+"}]");
-	// }
+//     for(u = 0; u < instancesNumberClassifier.length; u++){
+// 		console.log("[" + seen[u] + " : {classes: " + instancesNumberClassifier[u] + ", total: "+instancesSumClassifier[u]+", brkdown: "+instancesAggregateClassifier[u]+"}]");
+// 	}
 
-	for(v = 0; v<instances.length; v++){
-		var strng = seen[v];
-		var fraction = 1/instancesSumClassifier[v];
-		var arrayXPLevel = instancesAggregateClassifier[v];
-		//no beginners
-		if(arrayXPLevel[0] == 0){
-			//no beginners or int; only advanced
-			if(arrayXPLevel[1] == 0){
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(1))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#997e00");
-			//only int
-			} else if(arrayXPLevel[2] == 0){
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(1))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffd200");
-			//at least one int and adv
-			} else {
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[1]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffd200");
-				
-				svg2.append("rect")
-					.attr("x",10 + xScale(fraction * arrayXPLevel[1])+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[2]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#997e00");
-			}
+//want to work with instancesAggregateClassifier and possibly instancesSumClassifier
 
-		//no int, but at least one beginner
-		} else if (arrayXPLevel[1] == 0){
-			//only beginner
-			if(arrayXPLevel[2] == 0){
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(1))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffe466");
-			//beginner and adv
-			} else {
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[0]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffe466");
-				svg2.append("rect")
-					.attr("x",10 + xScale(fraction * arrayXPLevel[0])+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[2]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#997e00");
-			}
-		//at least one beginner, int
-		} else {
-			//no adv
-			if(arrayXPLevel[2] == 0){
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[0]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffe466");
 
-				svg2.append("rect")
-					.attr("x",10 + xScale(fraction * arrayXPLevel[0])+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[1]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffd200");
-			} else {
-				svg2.append("rect")
-					.attr("x",10 + xScale(0)+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[0]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffe466");
+	var secondGraph = document.createElement("H3"); 
+	var secondIntro = document.createTextNode("Breakdown By School");
+	secondGraph.appendChild(secondIntro);
+	genXPParagraph.appendChild(secondGraph);
 
-				svg2.append("rect")
-					.attr("x",10 + xScale(fraction * arrayXPLevel[0])+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[1]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#ffd200");
+	var svg2 = d3.select("#genderXPParagraph").append("svg")
+		.attr("width", width*3.5)
+		.attr("height", height*2)
+		.attr("id","svg2");
 
-				svg2.append("rect")
-					.attr("x",10 + xScale(fraction * arrayXPLevel[0]) + xScale(fraction * arrayXPLevel[1])+margin.top)
-					.attr("y",yScale(v)-(height/instances.length)+5)
-					.attr("width",xScale(fraction * arrayXPLevel[2]))
-					.attr("height",height/instances.length)
-			        .attr("stroke", "#0064a4")
-					// .attr("transform","translate("+200+","+200+")")
-					.style("fill", "#997e00");
-			}
-		}
-	}
+	var yBound = Math.max(...instancesSumClassifier)
 
-	for(r=0; r<9; r++){
-		svg2.append("line")
-			.attr("x1", xScale((r+1)/10))
-			.attr("y1", yScale(0))
-			.attr("x2", xScale((r+1)/10))
-			.attr("y2", yScale(seen.length))
-			.style("stroke", "black")
-			.style("opacity", 0.2)
-        	.style("stroke-dasharray", ("3, 3"))
-        	.attr("transform", "translate(" + margin.right + " ,5)");
-	}
+	var xScale2 = d3.scale.linear()
+	.domain([0, instancesSumClassifier.length])
+	.range([0,1000]);
 
-	for(q = 0; q<seen.length; q++){
+	var yScale2 = d3.scale.linear()
+        .domain([yBound,0])
+        .range([0,400]);
+
+    var xAxis2 = d3.svg.axis()
+    	.orient("bottom")
+    	.tickFormat("")
+    	.scale(xScale2);
+
+    var yAxis2 = d3.svg.axis()
+    	.orient("left")
+    	.ticks(10)
+    	.scale(yScale2);
+
+    svg2.append("g")
+        .attr("transform", "translate(" + (margin.left*2 - margin.bottom) + " ,"+newHeight+")")
+    	.call(xAxis2)
+    	.style("fill", "#1C2957");
+    svg2.append("g")
+        .attr("transform", "translate(" + (margin.left*2 - margin.bottom) + " ,10)")
+    	.call(yAxis2)
+    	.style("fill", "#1C2957");
+
+    for(s=0; s<seen.length; s++){
+
     	svg2.append("text")
-    		.attr("x",xScale(1)+margin.top)
-    		.attr("y",yScale(q)+2)
-    		.text(seen[q])
-    		.attr("font-size", "12px")
-    		.attr("text-anchor", "end")
-    		.style("fill", "white");
+		.attr("x", xScale2(s))
+		.attr("y", yScale2(0))
+		.text(seen[s])
+		.attr("class", "slantText")
+		.attr("font-size", "12px")
+		.attr("transform", "translate("+((margin.left*2 - margin.bottom)+3)+",20)rotate(45, "+xScale2(s)+","+yScale2(0)+")");
+
+    	var breakdown = instancesAggregateClassifier[s];
+    	var max = instancesSumClassifier[s];
+    	
+    	console.log(seen[s] + breakdown)
+    	var numB = breakdown[0];
+    	var numI = breakdown[1] + numB;
+    	var numA = breakdown[2] + numI;
+	//#ffe466 #ffd200 #997e00
+    	svg2.append("rect")
+			.attr("x", xScale2(s))
+			.attr("y", yScale2(numA))
+			.attr("width", xScale2(1)-xScale2(0))
+			.attr("height", Math.abs(yScale2(numI) - yScale2(numA)))
+			.attr("transform", "translate(0"+((margin.left*2 - margin.bottom))+","+(5)+")")
+			.style("fill", "#997e00")
+			.style("stroke", "black");
+
+		svg2.append("rect")
+			.attr("x", xScale2(s))
+			.attr("y", yScale2(numI))
+			.attr("width", xScale2(1)-xScale2(0))
+			.attr("height", Math.abs(yScale2(numB) - yScale2(numI)))
+			.attr("transform", "translate("+((margin.left*2 - margin.bottom))+","+(5)+")")
+			.style("fill", "#ffd200")
+			.style("stroke", "black");
+
+		svg2.append("rect")
+			.attr("x", xScale2(s))
+			.attr("y", yScale2(numB))
+			.attr("width", xScale2(1)-xScale2(0))
+			.attr("height", Math.abs(yScale2(0) - yScale2(numB)))
+			.attr("transform", "translate("+((margin.left*2 - margin.bottom))+","+(5)+")")
+			.style("fill", "#ffe466")
+			.style("stroke", "black");
+
     }
 
-    svg2.append("text")
-    	.attr("x", width)
-    	.attr("y", height-3)
-    	.attr("text-anchor", "middle")
-    	.style("font-size", "15px")
-    	.text("The lightest color is beginner. The darkest color is advanced.")
-    	.style("fill", "grey");
-
+    for(t=0; t<=yBound; t+=2){
+		svg2.append("line")
+			.attr("x1", xScale2(0))
+			.attr("y1", yScale2(t))
+			.attr("x2", xScale2(seen.length))
+			.attr("y2", yScale2(t))
+			.style("stroke", "black")
+			.style("opacity", 0.4)
+	    	.style("stroke-dasharray", ("3, 3"))
+			.attr("transform", "translate("+((margin.left*2 - margin.bottom))+","+(5)+")");
+	}
 
 });
