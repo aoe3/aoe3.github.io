@@ -37,7 +37,7 @@ $.getJSON("2014.json", function(data) {
 //***********Map drawing code adapted from bl.ocks.org
 
 	// Map dimensions (in pixels)
-	var width = 500,
+	var width = 450,
 			height = 750;
 
 	// Map projection
@@ -94,7 +94,6 @@ $.getJSON("2014.json", function(data) {
 		    })
 		    .attr('r', 2.5)
 		    .style("fill", "white")
-		    .style("stroke","black")
 		    .attr("opacity", 0.9);
 
 		// Create a path for each source/target pair.
@@ -208,12 +207,56 @@ $.getJSON("2014.json", function(data) {
 
 	var eachSchoolText = document.createElement("P");
 	var keys = Object.keys(schoolsList).sort()
-	keys.forEach(function(key,index) {
-		var indivSchool = document.createTextNode(key + ": " + schoolsList[key] + " representative(s)! ");
-		eachSchoolText.appendChild(indivSchool);
-		var breakLine = document.createElement('br');
-		eachSchoolText.appendChild(breakLine);
-	});
+	// keys.forEach(function(key,index) {
+	// 	// var indivSchool = document.createTextNode(key + ": " + schoolsList[key] + " representative(s)! ");
+	// 	// eachSchoolText.appendChild(indivSchool);
+	// 	// var breakLine = document.createElement('br');
+	// 	// eachSchoolText.appendChild(breakLine);
+	// });
+
+	tbl  = document.createElement('table');
+    tbl.style.width  = '600px';
+    tbl.style.border = '1px solid black';
+
+    for(var i = 0; i <= (keys.length); i++){
+        var tr = tbl.insertRow();
+        for(var j = 0; j < 2; j++){
+            if(i == keys.length+1 && j == 1){
+                break;
+            } else {
+            	if (i == 0 ){
+            		if(j==0){
+	            		var td = tr.insertCell();
+		                td.appendChild(document.createTextNode("School Name"));
+		                td.style.border = '1px solid black';
+		                if(i == 1 && j == 1){
+		                    td.setAttribute('rowSpan', '2');
+		                }
+		            } else {
+		            	var td = tr.insertCell();
+		                td.appendChild(document.createTextNode("Number of Competitors"));
+		                td.style.border = '1px solid black';
+		                if(i == 1 && j == 1){
+		                    td.setAttribute('rowSpan', '2');
+		                }
+		            }
+            	} else {
+            		if(j==0){
+		                var td = tr.insertCell();
+		                td.appendChild(document.createTextNode(""+keys[i-1]+""));
+		                td.style.border = '1px solid black';
+		                
+		            } else {
+		            	var td = tr.insertCell();
+		                td.appendChild(document.createTextNode(""+schoolsList[keys[i-1]]+""));
+		                td.style.border = '1px solid black';
+		                
+		            }
+	            }
+            }
+        }
+    }
+    localPara.appendChild(tbl);
 
 	localPara.append(eachSchoolText);
 
