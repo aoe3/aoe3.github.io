@@ -354,7 +354,6 @@ $.getJSON("2018.json", function(data) {
 		.attr("y", yScale2(0))
 		.text(seen[s])
 		.attr("class", "slantText")
-	    	.style("fill", "grey")
 		.attr("font-size", "12px")
 		.style("fill", "white")
 		.attr("transform", "translate("+((margin.left*2 - margin.bottom)+3)+",20)rotate(45, "+xScale2(s)+","+yScale2(0)+")");
