@@ -229,31 +229,31 @@ $.getJSON("2016.json", function(data) {
 	            		var td = tr.insertCell();
 		                td.appendChild(document.createTextNode("School Name"));
 		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
-				    td.setAttribute('align', 'center');
 		                }
 		            } else {
 		            	var td = tr.insertCell();
 		                td.appendChild(document.createTextNode("No. Sent"));
 		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                if(i == 1 && j == 1){
 		                    td.setAttribute('rowSpan', '2');
-				    td.setAttribute('align', 'center');
 		                }
 		            }
             	} else {
             		if(j==0){
 		                var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+keys[i-1]+""));
-		                    td.style.border = '1px solid black';
-				    td.setAttribute('align', 'center');
+		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                
 		            } else {
 		            	var td = tr.insertCell();
 		                td.appendChild(document.createTextNode(""+schoolsList[keys[i-1]]+""));
-		                    td.style.border = '1px solid black';
-				    td.setAttribute('align', 'center');
+		                td.style.border = '1px solid black';
+				td.setAttribute('align', 'center');
 		                
 		            }
 	            }
