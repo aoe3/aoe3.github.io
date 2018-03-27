@@ -177,7 +177,7 @@ $.getJSON("2017.json", function(data) {
 		.text("ADV Female")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "white");
+		.style("fill", "black");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -185,7 +185,7 @@ $.getJSON("2017.json", function(data) {
 		.text("ADV Male")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "white");
+		.style("fill", "black");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -193,7 +193,7 @@ $.getJSON("2017.json", function(data) {
 		.text("INT Female")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "white");
+		.style("fill", "black");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -201,7 +201,7 @@ $.getJSON("2017.json", function(data) {
 		.text("INT Male")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "white");
+		.style("fill", "black");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -209,7 +209,7 @@ $.getJSON("2017.json", function(data) {
 		.text("BEG Female")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "white");
+		.style("fill", "black");
 
 	svg.append("text")
 		.attr("x", 150)
@@ -217,7 +217,7 @@ $.getJSON("2017.json", function(data) {
 		.text("BEG Male")
 		.attr("text-anchor", "end")
 		.style("alignment-baseline", "middle")
-		.style("fill", "white");
+		.style("fill", "black");
 
 	//#e8e3d3 #b7ac90 #85754d
 	for (j = 0; j < arrPopulations.length; j++){
