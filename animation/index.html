@@ -67,22 +67,58 @@
 			#intro a{
 				text-decoration: underline;
 			}
+			.drop:after {
+			content: "";
+			display: table;
+		}
+		.nav-menu {
+			
+			position:relative;
+			display:inline;
+		}
+		.nav-menu li {
+			text-align: center;
+			display: block;
+			list-style-type: none;
+		}
+		.sub-menu {
+			display:none;
+		}
+		
+		.nav-menu ul li:hover > ul {
+			display:block;
+			margin-left: 5%;
+		}
+		.nav-menu > ul > li:after {
+			content: "\25BC"; /*escaped unicode for the down arrow*/
+			font-size: .5em;
+			display: inline;
+			position: relative;
+		}
 		</style>
 	</head>
 	<body>
-		<div id="vizNav">
-			<div class="table">
-				<ul>
-					<li class="main"><a href="../index.html">Home</a></li>
-				</ul>
-			</div>
-			<div class="table">
-				<ul>
-					<li><a href="../uwg/index.html">University Wushu Games Visualization</a></li>
-					<li><a href="../wwc/wwc.html">World Wushu Championship Visualization</a></li>
-					<li><a href="../animation/index.html">Animation</a></li>
-				</ul>
-			</div>
+		<div class="vizNav">
+			<nav class="nav-menu">
+				<div class="table">
+					<ul class = "drop">
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../../uwg/index.html">University Wushu Games</a></li>
+						<li><a href="../../wwc/wwc.html">World Wushu Championships</a></li>
+						<li><a href="../../../animation/index.html">Animations/Art</a></li>
+						<li><a href="#!">Other Collegiates</a>
+							<ul class="sub-menu">
+								<li><a href="http://andrewe.cc/wushuCollegiates/uCSDCollegiates/index.html">2013</a></li>
+								<li><a href="http://andrewe.cc/wushuCollegiates/uMDCollegiates/index.html">2014</a></li>
+								<li><a href="http://andrewe.cc/wushuCollegiates/uCIrvineCollegiates/index.html">2015</a></li>
+								<li><a href="http://andrewe.cc/wushuCollegiates/columbiaCollegiates/index.html">2016</a></li>
+								<li><a href="http://andrewe.cc/wushuCollegiates/uWashingtonCollegiates/index.html">2017</a></li>
+								<li><a href="http://andrewe.cc/wushuCollegiates/uPittsburghCollegiates/">2018</a></li>
+							</ul>
+						</li> 
+					</ul>
+				</div>
+			</nav>
 		</div>
 		<div id="intro">
 			<h1>Check out some of my animations below! Most are unlisted on YouTube, so this is the only place you'll find some of them!</h1><br><br>
