@@ -97,14 +97,14 @@ $.getJSON("2018.json", function(data) {
 		    .attr("opacity", 0.9);
 
 		// Create a path for each source/target pair.
-		arcs.selectAll("path")
-			.data(arcdata)
-			.enter()
-			.append("path")
-			.attr('d', function(d) { 
-				return lngLatToArc(d, 'sourceLocation', 'targetLocation', 3); // A bend of 5 looks nice and subtle, but this will depend on the length of your arcs and the visual look your visualization requires. Higher number equals less bend.
-			})
-			.style("stroke-width", function(d){return 'amount' * 5});
+// 		arcs.selectAll("path")
+// 			.data(arcdata)
+// 			.enter()
+// 			.append("path")
+// 			.attr('d', function(d) { 
+// 				return lngLatToArc(d, 'sourceLocation', 'targetLocation', 3); // A bend of 5 looks nice and subtle, but this will depend on the length of your arcs and the visual look your visualization requires. Higher number equals less bend.
+// 			})
+// 			.style("stroke-width", function(d){return 'amount' * 5});
 
 	});
 
